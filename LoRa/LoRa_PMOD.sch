@@ -58,54 +58,30 @@ F 3 "" H 4900 3000 50  0000 C CNN
 	1    4900 4200
 	1    0    0    -1  
 $EndComp
-Text GLabel 4550 3950 0    60   Input ~ 0
-CS
-Text GLabel 4550 4050 0    60   Input ~ 0
-MISO
-Text GLabel 4550 4150 0    60   Input ~ 0
-GND
-Text GLabel 4550 4250 0    60   Input ~ 0
-DIO0
-Text GLabel 4550 4350 0    60   Input ~ 0
-DIO1
 Text GLabel 4550 4450 0    60   Input ~ 0
-GND
-Text GLabel 5250 3950 2    60   Input ~ 0
-MOSI
+CS
+Text GLabel 4550 4250 0    60   Input ~ 0
+MISO
 Text GLabel 5250 4050 2    60   Input ~ 0
-SCK
-Text GLabel 5250 4150 2    60   Input ~ 0
-VCC
-Text GLabel 5250 4250 2    60   Input ~ 0
-RESET
-Text GLabel 5250 4350 2    60   Input ~ 0
-DIO2
+GND
 Text GLabel 5250 4450 2    60   Input ~ 0
+DIO0
+Text GLabel 5250 4250 2    60   Input ~ 0
+DIO1
+Text GLabel 4550 4050 0    60   Input ~ 0
+GND
+Text GLabel 4550 4350 0    60   Input ~ 0
+MOSI
+Text GLabel 4550 4150 0    60   Input ~ 0
+SCK
+Text GLabel 4550 3950 0    60   Input ~ 0
 VCC
-Wire Wire Line
-	4550 3950 4650 3950
-Wire Wire Line
-	4550 4050 4650 4050
-Wire Wire Line
-	4550 4150 4650 4150
-Wire Wire Line
-	4550 4450 4650 4450
-Wire Wire Line
-	5150 3950 5250 3950
-Wire Wire Line
-	5150 4050 5250 4050
-Wire Wire Line
-	5150 4150 5250 4150
-Wire Wire Line
-	5150 4250 5250 4250
-Wire Wire Line
-	5150 4450 5250 4450
-Wire Wire Line
-	4550 4250 4650 4250
-Wire Wire Line
-	4550 4350 4650 4350
-Wire Wire Line
-	5150 4350 5250 4350
+Text GLabel 5250 4350 2    60   Input ~ 0
+RESET
+Text GLabel 5250 4150 2    60   Input ~ 0
+DIO2
+Text GLabel 5250 3950 2    60   Input ~ 0
+VCC
 $Comp
 L +3.3V #PWR01
 U 1 1 5BFAA7BB
@@ -299,4 +275,28 @@ F 3 "" H 3450 2200 60  0001 C CNN
 	1    3450 2200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4550 3950 4650 3950
+Wire Wire Line
+	4550 4050 4650 4050
+Wire Wire Line
+	5150 3950 5250 3950
+Wire Wire Line
+	5150 4050 5250 4050
+Wire Wire Line
+	5150 4150 5250 4150
+Wire Wire Line
+	4550 4150 4650 4150
+Wire Wire Line
+	4550 4250 4650 4250
+Wire Wire Line
+	4550 4350 4650 4350
+Wire Wire Line
+	4550 4450 4650 4450
+Wire Wire Line
+	5150 4450 5250 4450
+Wire Wire Line
+	5150 4350 5250 4350
+Wire Wire Line
+	5150 4250 5250 4250
 $EndSCHEMATC

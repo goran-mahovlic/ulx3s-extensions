@@ -9,7 +9,7 @@ PMOD boards for ULX3S
     [x] PMOD to RaspiCam
     [x] PMOD HDMI
 
-![Radiona](https://i1.wp.com/radiona.org/wp-content/uploads/2016/09/radiona_makerspace_logo.png)
+![Radiona](LoRa/pic/radiona.svg)
 
-![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20CMYK/Shuttleworth%20Funded.jpg)
+![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 

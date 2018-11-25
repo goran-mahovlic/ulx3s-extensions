@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
@@ -401,7 +401,7 @@
       (net 10 DIO2))
     (model ../../../../../home/mistery/FPGA/ulx3s-PMOD/LoRa/parts/RFM95/RFM95.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 0.39 0.39 0.39))
       (rotate (xyz 270 0 0))
     )
   )

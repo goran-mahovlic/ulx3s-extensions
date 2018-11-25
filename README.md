@@ -1,10 +1,10 @@
-![Radiona](LoRa/pic/radiona.png)
+# PMOD boards for ULX3S
 
     [x] PMOD to LoRa
     [ ] PMOD to RaspiCam
     [ ] PMOD HDMI
 
-### PMOD boards for ULX3S
+
 
 ![PMOD_LoRa](LoRa/pic/final_down.png)
 

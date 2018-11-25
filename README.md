@@ -2,7 +2,7 @@
 
 PMOD boards for ULX3S
 
-![PMOD_LoRa](pic/PMOD_LoRa.png)
+![PMOD_LoRa](LoRa/pic/PMOD_LoRa.png)
 
 
     [x] PMOD to LoRa

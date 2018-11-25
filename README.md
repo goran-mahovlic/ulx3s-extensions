@@ -1,5 +1,3 @@
-# ulx3s-PMOD
-
 ![Radiona](LoRa/pic/radiona.png)
 
 ### PMOD boards for ULX3S

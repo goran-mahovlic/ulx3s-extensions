@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mistery/FPGA/ulx3s-PMOD/LoRa/LoRa_PMOD.sch)
-    (date "Sun 25 Nov 2018 02:58:31 PM CET")
+    (date "Sun 25 Nov 2018 03:43:23 PM CET")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -146,12 +146,12 @@
         (pin (num 15) (name DIO1) (type BiDi))
         (pin (num 16) (name DIO2) (type BiDi)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical RFM95W-868S2)
-      (uri /home/mistery/FPGA/ulx3s-PMOD/LoRa/parts/RFM95/RFM95W-868S2.lib)))
+      (uri /home/mistery/FPGA/ulx3s-PMOD/LoRa/parts/RFM95/RFM95W-868S2.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref U1) (pin 8))

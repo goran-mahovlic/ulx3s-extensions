@@ -1,4 +1,4 @@
-update=Sun 25 Nov 2018 02:45:17 PM CET
+update=Sun 25 Nov 2018 03:42:19 PM CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=parts/RFM95/RFM95W-868S2
+LibName31=parts/radiona

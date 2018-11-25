@@ -194,17 +194,6 @@ Wire Wire Line
 	5700 5950 5800 5950
 Wire Wire Line
 	5700 5050 5800 5050
-$Comp
-L CONN_01X05 P3
-U 1 1 5BFAAF2D
-P 2850 5850
-F 0 "P3" H 2850 6150 50  0000 C CNN
-F 1 "Extension" V 2950 5850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 2850 5850 50  0001 C CNN
-F 3 "" H 2850 5850 50  0000 C CNN
-	1    2850 5850
-	-1   0    0    1   
-$EndComp
 Text GLabel 4200 5550 0    60   Input ~ 0
 DIO3
 Text GLabel 4200 5650 0    60   Input ~ 0
@@ -217,10 +206,6 @@ Wire Wire Line
 	4200 5550 4300 5550
 Wire Wire Line
 	4200 5650 4300 5650
-Text GLabel 3150 5650 2    60   Input ~ 0
-VCC
-Text GLabel 3150 5750 2    60   Input ~ 0
-GND
 Text GLabel 3150 6050 2    60   Input ~ 0
 DIO5
 Text GLabel 3150 5950 2    60   Input ~ 0
@@ -232,15 +217,11 @@ ANT
 Wire Wire Line
 	5700 5250 5800 5250
 Wire Wire Line
-	3050 5650 3150 5650
+	2900 5850 3150 5850
 Wire Wire Line
-	3050 5750 3150 5750
+	2900 5950 3150 5950
 Wire Wire Line
-	3050 5850 3150 5850
-Wire Wire Line
-	3050 5950 3150 5950
-Wire Wire Line
-	3050 6050 3150 6050
+	2900 6050 3150 6050
 Wire Wire Line
 	3550 3850 3550 3750
 Wire Wire Line
@@ -286,7 +267,7 @@ U 1 1 5BFB01E5
 P 6500 4300
 F 0 "AE1" H 6425 4475 50  0000 R CNN
 F 1 "Ant" H 6425 4400 50  0000 R CNN
-F 2 "Connectors:SMA_THT_Jack_Straight" H 6500 4400 50  0001 C CNN
+F 2 "Connectors:SMB_Straight" H 6500 4400 50  0001 C CNN
 F 3 "" H 6500 4400 50  0001 C CNN
 	1    6500 4300
 	1    0    0    -1  
@@ -299,4 +280,15 @@ Text GLabel 6500 4600 3    60   Input ~ 0
 ANT
 Wire Wire Line
 	6500 4500 6500 4600
+$Comp
+L CONN_01X03 P2
+U 1 1 5BFB07D0
+P 2700 5950
+F 0 "P2" H 2700 6150 50  0000 C CNN
+F 1 "Ext" V 2800 5950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2700 5950 50  0001 C CNN
+F 3 "" H 2700 5950 50  0000 C CNN
+	1    2700 5950
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

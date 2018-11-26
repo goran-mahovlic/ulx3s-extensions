@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:RFM95W-868S2
-LIBS:radiona
+EESchema Schematic File Version 4
 LIBS:LoRa_PMOD-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +17,7 @@ $EndDescr
 Text Notes 4250 3300 0    60   ~ 0
 Pmod Interface Type 2A (expanded SPI)\n\n1	CS 	Out\n2	MOSI	Out\n3	MISO	In\n4	SCK		Out\n5	GND\n6	VCC\n7	GPIO	In/Out	InterfaceIn\n8	GPIO	In/Out	RESET 	Out\n9	GPIO	In/Out	CS2	Out\n10	GPIO	In/Out	CS3	Out\n11	GND	\n12	VCC
 $Comp
-L CONN_02X06 P1
+L LoRa_PMOD-rescue:CONN_02X06 P1
 U 1 1 5BFAA353
 P 4900 4200
 F 0 "P1" H 4900 4550 50  0000 C CNN
@@ -83,7 +52,7 @@ DIO2
 Text GLabel 5250 3950 2    60   Input ~ 0
 VCC
 $Comp
-L +3.3V #PWR01
+L power:+3.3V #PWR01
 U 1 1 5BFAA7BB
 P 3550 3750
 F 0 "#PWR01" H 3550 3600 50  0001 C CNN
@@ -94,7 +63,7 @@ F 3 "" H 3550 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5BFAA7D2
 P 3550 4250
 F 0 "#PWR02" H 3550 4000 50  0001 C CNN
@@ -105,7 +74,7 @@ F 3 "" H 3550 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR03
+L power:+3.3V #PWR03
 U 1 1 5BFAA7E7
 P 3100 3850
 F 0 "#PWR03" H 3100 3700 50  0001 C CNN
@@ -120,7 +89,7 @@ VCC
 Wire Wire Line
 	3100 4100 3100 3850
 $Comp
-L C C1
+L LoRa_PMOD-rescue:C C1
 U 1 1 5BFAA809
 P 3550 4000
 F 0 "C1" H 3575 4100 50  0000 L CNN
@@ -133,7 +102,7 @@ $EndComp
 Wire Wire Line
 	3550 4150 3550 4250
 $Comp
-L RFM95W-868S2 U1
+L RFM95W-868S2:RFM95W-868S2 U1
 U 1 1 5BFAAA0A
 P 5000 5450
 F 0 "U1" H 4399 6001 50  0000 L BNN
@@ -227,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 5750 5800 5750
 $Comp
-L LOGO #G1
+L radiona:LOGO #G1
 U 1 1 5BFAC680
 P 3450 2200
 F 0 "#G1" H 3450 2080 60  0001 C CNN
@@ -262,7 +231,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4250 5250 4250
 $Comp
-L Antenna_Shield AE1
+L LoRa_PMOD-rescue:Antenna_Shield AE1
 U 1 1 5BFB01E5
 P 6500 4300
 F 0 "AE1" H 6425 4475 50  0000 R CNN
@@ -281,7 +250,7 @@ ANT
 Wire Wire Line
 	6500 4500 6500 4600
 $Comp
-L CONN_01X03 P2
+L LoRa_PMOD-rescue:CONN_01X03 P2
 U 1 1 5BFB07D0
 P 2700 5950
 F 0 "P2" H 2700 6150 50  0000 C CNN

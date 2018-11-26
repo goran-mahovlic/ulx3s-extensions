@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name LoRa_PMOD-rescue)(type Legacy)(uri ${KIPRJMOD}/LoRa_PMOD-rescue.lib)(options "")(descr ""))
+  (lib (name RFM95W-868S2)(type Legacy)(uri ${KIPRJMOD}/parts/RFM95/RFM95W-868S2.lib)(options "")(descr ""))
+  (lib (name radiona)(type Legacy)(uri ${KIPRJMOD}/parts/radiona.lib)(options "")(descr ""))
+)

@@ -1,0 +1,99 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J1
+U 1 1 5BFC6F5D
+P 5700 4250
+F 0 "J1" H 5750 4867 50  0000 C CNN
+F 1 "OV7670" H 5750 4776 50  0000 C CNN
+F 2 "" H 5700 4250 50  0001 C CNN
+F 3 "~" H 5700 4250 50  0001 C CNN
+	1    5700 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 3850 0    50   Input ~ 0
+3V3
+Text GLabel 5400 3950 0    50   Input ~ 0
+SIOC
+Text GLabel 5400 4150 0    50   Input ~ 0
+PCLK
+Text GLabel 5400 4250 0    50   Input ~ 0
+D7
+Text GLabel 5400 4350 0    50   Input ~ 0
+D5
+Text GLabel 5400 4450 0    50   Input ~ 0
+D3
+Text GLabel 5400 4550 0    50   Input ~ 0
+D1
+Text GLabel 5400 4650 0    50   Input ~ 0
+RESET
+Text GLabel 5400 4050 0    50   Input ~ 0
+VSYNC
+Text GLabel 6100 3850 2    50   Input ~ 0
+GND
+Text GLabel 6100 3950 2    50   Input ~ 0
+SIOD
+Text GLabel 6100 4050 2    50   Input ~ 0
+HREF
+Text GLabel 6100 4150 2    50   Input ~ 0
+XCLK
+Text GLabel 6100 4250 2    50   Input ~ 0
+D6
+Text GLabel 6100 4350 2    50   Input ~ 0
+D4
+Text GLabel 6100 4450 2    50   Input ~ 0
+D2
+Text GLabel 6100 4550 2    50   Input ~ 0
+D0
+Text GLabel 6100 4650 2    50   Input ~ 0
+PWDN
+Wire Wire Line
+	5400 3850 5500 3850
+Wire Wire Line
+	6000 3850 6100 3850
+Wire Wire Line
+	5400 3950 5500 3950
+Wire Wire Line
+	6000 3950 6100 3950
+Wire Wire Line
+	5400 4050 5500 4050
+Wire Wire Line
+	6000 4050 6100 4050
+Wire Wire Line
+	5400 4150 5500 4150
+Wire Wire Line
+	6000 4150 6100 4150
+Wire Wire Line
+	5400 4250 5500 4250
+Wire Wire Line
+	6000 4250 6100 4250
+Wire Wire Line
+	5400 4350 5500 4350
+Wire Wire Line
+	6000 4350 6100 4350
+Wire Wire Line
+	6100 4450 6000 4450
+Wire Wire Line
+	5500 4450 5400 4450
+Wire Wire Line
+	5400 4550 5500 4550
+Wire Wire Line
+	6000 4550 6100 4550
+Wire Wire Line
+	6100 4650 6000 4650
+Wire Wire Line
+	5500 4650 5400 4650
+$EndSCHEMATC

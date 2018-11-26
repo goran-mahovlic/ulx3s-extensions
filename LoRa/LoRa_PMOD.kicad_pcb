@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 146)
     (zones 0)
     (modules 7)
@@ -869,7 +869,7 @@
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5BFAA353)
-    (fp_text reference P1 (at 1.29 -2.58 180) (layer F.SilkS)
+    (fp_text reference P1 (at 1.265 6.345 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PMOD_LoRa (at 0 -3.1 180) (layer F.Fab)
@@ -976,14 +976,9 @@
       (net 3 CS))
     (pad 12 thru_hole oval (at 2.54 12.7 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 7 DIO0))
-    (model Pin_Headers.3dshapes/Pin_Header_Angled_2x06.wrl
-      (offset (xyz 1.269999980926514 -6.349999904632568 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
-    (model ${KISYS3DMOD}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_2x08_P1.00mm_Horizontal.wrl
+    (model ${KISYS3DMOD}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_2x06_P1.00mm_Horizontal.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1.8 1.8 1))
+      (scale (xyz 2.75 2.5 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1424,6 +1419,9 @@
       (xy -2.859194 -0.90424) (xy -2.847818 -0.905006)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text "Ver.: 0.2" (at 99.6 119.9) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
   (gr_text LoRa-PMOD (at 99.8 102) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )

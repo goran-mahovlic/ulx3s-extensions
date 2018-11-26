@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 146)
     (zones 0)
     (modules 7)
@@ -20,7 +20,7 @@
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
-    (39 F.Mask user)
+    (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
@@ -1424,6 +1424,9 @@
       (xy -2.859194 -0.90424) (xy -2.847818 -0.905006)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text LoRa-PMOD (at 99.8 102) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
   (gr_line (start 132 101) (end 132 121) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 93.9 101) (end 132 101) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 93.9 121) (end 93.9 101) (layer Edge.Cuts) (width 0.15))

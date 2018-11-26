@@ -12,3 +12,4 @@
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 
+Helping hands: Marvin(Radiona), Emard(Radiona), Prizma(Radiona)

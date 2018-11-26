@@ -2,6 +2,8 @@
 
     [x] PMOD to LoRa
     [ ] PMOD to RaspiCam
+    [ ] PMOD to OV7670
+    [ ] PMOD to RFID-RC522
     [ ] PMOD HDMI
 
 Up

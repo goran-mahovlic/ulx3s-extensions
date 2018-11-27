@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:arduCam_RC522-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5BFC6F5D
 P 5700 4250
 F 0 "J1" H 5750 4867 50  0000 C CNN
 F 1 "OV7670" H 5750 4776 50  0000 C CNN
-F 2 "" H 5700 4250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Horizontal" H 5700 4250 50  0001 C CNN
 F 3 "~" H 5700 4250 50  0001 C CNN
 	1    5700 4250
 	1    0    0    -1  
@@ -102,7 +103,7 @@ U 1 1 5BFC8C5D
 P 7550 3250
 F 0 "J2" H 7600 3667 50  0000 C CNN
 F 1 "PMOD1" H 7600 3576 50  0000 C CNN
-F 2 "" H 7550 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 7550 3250 50  0001 C CNN
 F 3 "~" H 7550 3250 50  0001 C CNN
 	1    7550 3250
 	1    0    0    -1  
@@ -123,27 +124,27 @@ Text GLabel 7250 3350 0    50   Input ~ 0
 VSYNC
 Text GLabel 7950 3350 2    50   Input ~ 0
 HREF
-Text GLabel 7250 3450 0    50   Input ~ 0
-PCLK
 Text GLabel 7950 3450 2    50   Input ~ 0
+PCLK
+Text GLabel 7250 3450 0    50   Input ~ 0
 XCLK
-Text GLabel 7250 3550 0    50   Input ~ 0
-D7
-Text GLabel 7950 3550 2    50   Input ~ 0
-D6
 Text GLabel 7250 4300 0    50   Input ~ 0
-D5
-Text GLabel 7250 4400 0    50   Input ~ 0
-D3
-Text GLabel 7250 4500 0    50   Input ~ 0
-D1
-Text GLabel 7250 4600 0    50   Input ~ 0
-RESET
+D7
 Text GLabel 7950 4300 2    50   Input ~ 0
-D4
+D6
+Text GLabel 7250 4400 0    50   Input ~ 0
+D5
+Text GLabel 7250 4500 0    50   Input ~ 0
+D3
+Text GLabel 7250 4600 0    50   Input ~ 0
+D1
+Text GLabel 7250 3550 0    50   Input ~ 0
+RESET
 Text GLabel 7950 4400 2    50   Input ~ 0
-D2
+D4
 Text GLabel 7950 4500 2    50   Input ~ 0
+D2
+Text GLabel 7950 4600 2    50   Input ~ 0
 D0
 Text GLabel 7950 4200 2    50   Input ~ 0
 GND
@@ -159,12 +160,12 @@ U 1 1 5BFC8CAD
 P 7550 4300
 F 0 "J3" H 7600 4717 50  0000 C CNN
 F 1 "PMOD2" H 7600 4626 50  0000 C CNN
-F 2 "" H 7550 4300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 7550 4300 50  0001 C CNN
 F 3 "~" H 7550 4300 50  0001 C CNN
 	1    7550 4300
 	1    0    0    -1  
 $EndComp
-Text GLabel 7950 4600 2    50   Input ~ 0
+Text GLabel 7950 3550 2    50   Input ~ 0
 PWDN
 Wire Wire Line
 	7250 3050 7350 3050
@@ -214,4 +215,120 @@ Wire Wire Line
 	7250 4500 7350 4500
 Wire Wire Line
 	7250 4600 7350 4600
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J4
+U 1 1 5BFD989D
+P 9750 3750
+F 0 "J4" H 9800 4067 50  0000 C CNN
+F 1 "PMOD1_EXT" H 9800 3976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 9750 3750 50  0001 C CNN
+F 3 "~" H 9750 3750 50  0001 C CNN
+	1    9750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J5
+U 1 1 5BFD99E9
+P 9750 4900
+F 0 "J5" H 9800 5217 50  0000 C CNN
+F 1 "PMOD2_EXT" H 9800 5126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 9750 4900 50  0001 C CNN
+F 3 "~" H 9750 4900 50  0001 C CNN
+	1    9750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J6
+U 1 1 5BFD9AAC
+P 9750 3200
+F 0 "J6" H 9800 3517 50  0000 C CNN
+F 1 "EXT1" H 9800 3426 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9750 3200 50  0001 C CNN
+F 3 "~" H 9750 3200 50  0001 C CNN
+	1    9750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J7
+U 1 1 5BFD9AE4
+P 9750 4350
+F 0 "J7" H 9800 4667 50  0000 C CNN
+F 1 "EXT2" H 9800 4576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9750 4350 50  0001 C CNN
+F 3 "~" H 9750 4350 50  0001 C CNN
+	1    9750 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4250 9400 4250
+Wire Wire Line
+	9400 4250 9400 4800
+Wire Wire Line
+	9400 4800 9550 4800
+Wire Wire Line
+	9550 4350 9450 4350
+Wire Wire Line
+	9450 4350 9450 4900
+Wire Wire Line
+	9450 4900 9550 4900
+Wire Wire Line
+	9550 4450 9500 4450
+Wire Wire Line
+	9500 4450 9500 5000
+Wire Wire Line
+	9500 5000 9550 5000
+Wire Wire Line
+	10050 4450 10100 4450
+Wire Wire Line
+	10100 4450 10100 5000
+Wire Wire Line
+	10100 5000 10050 5000
+Wire Wire Line
+	10050 4900 10150 4900
+Wire Wire Line
+	10150 4900 10150 4350
+Wire Wire Line
+	10150 4350 10050 4350
+Wire Wire Line
+	10050 4250 10200 4250
+Wire Wire Line
+	10200 4250 10200 4800
+Wire Wire Line
+	10200 4800 10050 4800
+Wire Wire Line
+	9550 3200 9450 3200
+Wire Wire Line
+	9450 3200 9450 3750
+Wire Wire Line
+	9450 3750 9550 3750
+Wire Wire Line
+	9550 3300 9500 3300
+Wire Wire Line
+	9500 3300 9500 3850
+Wire Wire Line
+	9500 3850 9550 3850
+Wire Wire Line
+	10050 3850 10100 3850
+Wire Wire Line
+	10100 3850 10100 3300
+Wire Wire Line
+	10100 3300 10050 3300
+Wire Wire Line
+	10050 3200 10150 3200
+Wire Wire Line
+	10150 3200 10150 3750
+Wire Wire Line
+	10150 3750 10050 3750
+Wire Wire Line
+	10050 3650 10200 3650
+Wire Wire Line
+	10200 3650 10200 3100
+Wire Wire Line
+	10200 3100 10050 3100
+Wire Wire Line
+	9550 3100 9400 3100
+Wire Wire Line
+	9400 3100 9400 3650
+Wire Wire Line
+	9400 3650 9550 3650
 $EndSCHEMATC

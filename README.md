@@ -1,10 +1,11 @@
 # PMOD boards for ULX3S
 
-    [x] PMOD to LoRa
+    [x] PMOD to RFM9X
     [ ] PMOD to RaspiCam
     [ ] PMOD to OV7670
     [ ] PMOD to RFID-RC522
     [ ] PMOD HDMI
+    [ ] PMOD SX1257
 
 Up
 

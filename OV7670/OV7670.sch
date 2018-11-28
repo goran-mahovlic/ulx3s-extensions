@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:arduCam_RC522-cache
+LIBS:OV7670-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -273,4 +273,23 @@ Wire Wire Line
 	9400 3100 9400 3650
 Wire Wire Line
 	9400 3650 9550 3650
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5BFF0749
+P 8800 4100
+F 0 "J7" H 8879 4092 50  0000 L CNN
+F 1 "EXTVCC" H 8879 4001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8800 4100 50  0001 C CNN
+F 3 "~" H 8800 4100 50  0001 C CNN
+	1    8800 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 8550 4200 0    50   Input ~ 0
+3V3
+Text GLabel 8550 4100 0    50   Input ~ 0
+GND
+Wire Wire Line
+	8550 4100 8600 4100
+Wire Wire Line
+	8550 4200 8600 4200
 $EndSCHEMATC

@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:arduCam_RC522-cache
+LIBS:OV7670-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -227,17 +227,6 @@ F 3 "~" H 9750 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J5
-U 1 1 5BFD99E9
-P 9750 4900
-F 0 "J5" H 9800 5217 50  0000 C CNN
-F 1 "PMOD2_EXT" H 9800 5126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 9750 4900 50  0001 C CNN
-F 3 "~" H 9750 4900 50  0001 C CNN
-	1    9750 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x03_Odd_Even J6
 U 1 1 5BFD9AAC
 P 9750 3200
@@ -248,53 +237,6 @@ F 3 "~" H 9750 3200 50  0001 C CNN
 	1    9750 3200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J7
-U 1 1 5BFD9AE4
-P 9750 4350
-F 0 "J7" H 9800 4667 50  0000 C CNN
-F 1 "EXT2" H 9800 4576 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9750 4350 50  0001 C CNN
-F 3 "~" H 9750 4350 50  0001 C CNN
-	1    9750 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 4250 9400 4250
-Wire Wire Line
-	9400 4250 9400 4800
-Wire Wire Line
-	9400 4800 9550 4800
-Wire Wire Line
-	9550 4350 9450 4350
-Wire Wire Line
-	9450 4350 9450 4900
-Wire Wire Line
-	9450 4900 9550 4900
-Wire Wire Line
-	9550 4450 9500 4450
-Wire Wire Line
-	9500 4450 9500 5000
-Wire Wire Line
-	9500 5000 9550 5000
-Wire Wire Line
-	10050 4450 10100 4450
-Wire Wire Line
-	10100 4450 10100 5000
-Wire Wire Line
-	10100 5000 10050 5000
-Wire Wire Line
-	10050 4900 10150 4900
-Wire Wire Line
-	10150 4900 10150 4350
-Wire Wire Line
-	10150 4350 10050 4350
-Wire Wire Line
-	10050 4250 10200 4250
-Wire Wire Line
-	10200 4250 10200 4800
-Wire Wire Line
-	10200 4800 10050 4800
 Wire Wire Line
 	9550 3200 9450 3200
 Wire Wire Line
@@ -331,4 +273,23 @@ Wire Wire Line
 	9400 3100 9400 3650
 Wire Wire Line
 	9400 3650 9550 3650
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5BFF0749
+P 8800 4100
+F 0 "J7" H 8879 4092 50  0000 L CNN
+F 1 "EXTVCC" H 8879 4001 50  0000 L CNN
+F 2 "" H 8800 4100 50  0001 C CNN
+F 3 "~" H 8800 4100 50  0001 C CNN
+	1    8800 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 8550 4200 0    50   Input ~ 0
+3V3
+Text GLabel 8550 4100 0    50   Input ~ 0
+GND
+Wire Wire Line
+	8550 4100 8600 4100
+Wire Wire Line
+	8550 4200 8600 4200
 $EndSCHEMATC

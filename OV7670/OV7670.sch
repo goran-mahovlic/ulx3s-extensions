@@ -218,45 +218,59 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J4
 U 1 1 5BFD989D
-P 8900 3300
-F 0 "J4" H 8950 3617 50  0000 C CNN
-F 1 "PMOD1_EXT" H 8950 3526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 8900 3300 50  0001 C CNN
-F 3 "~" H 8900 3300 50  0001 C CNN
-	1    8900 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J5
-U 1 1 5BFD99E9
-P 8900 4350
-F 0 "J5" H 8950 4667 50  0000 C CNN
-F 1 "PMOD2_EXT" H 8950 4576 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 8900 4350 50  0001 C CNN
-F 3 "~" H 8900 4350 50  0001 C CNN
-	1    8900 4350
+P 9750 3750
+F 0 "J4" H 9800 4067 50  0000 C CNN
+F 1 "PMOD1_EXT" H 9800 3976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 9750 3750 50  0001 C CNN
+F 3 "~" H 9750 3750 50  0001 C CNN
+	1    9750 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J6
 U 1 1 5BFD9AAC
-P 9700 3300
-F 0 "J6" H 9750 3617 50  0000 C CNN
-F 1 "EXT1" H 9750 3526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9700 3300 50  0001 C CNN
-F 3 "~" H 9700 3300 50  0001 C CNN
-	1    9700 3300
+P 9750 3200
+F 0 "J6" H 9800 3517 50  0000 C CNN
+F 1 "EXT1" H 9800 3426 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9750 3200 50  0001 C CNN
+F 3 "~" H 9750 3200 50  0001 C CNN
+	1    9750 3200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J7
-U 1 1 5BFD9AE4
-P 9750 4350
-F 0 "J7" H 9800 4667 50  0000 C CNN
-F 1 "EXT2" H 9800 4576 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9750 4350 50  0001 C CNN
-F 3 "~" H 9750 4350 50  0001 C CNN
-	1    9750 4350
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	9550 3200 9450 3200
+Wire Wire Line
+	9450 3200 9450 3750
+Wire Wire Line
+	9450 3750 9550 3750
+Wire Wire Line
+	9550 3300 9500 3300
+Wire Wire Line
+	9500 3300 9500 3850
+Wire Wire Line
+	9500 3850 9550 3850
+Wire Wire Line
+	10050 3850 10100 3850
+Wire Wire Line
+	10100 3850 10100 3300
+Wire Wire Line
+	10100 3300 10050 3300
+Wire Wire Line
+	10050 3200 10150 3200
+Wire Wire Line
+	10150 3200 10150 3750
+Wire Wire Line
+	10150 3750 10050 3750
+Wire Wire Line
+	10050 3650 10200 3650
+Wire Wire Line
+	10200 3650 10200 3100
+Wire Wire Line
+	10200 3100 10050 3100
+Wire Wire Line
+	9550 3100 9400 3100
+Wire Wire Line
+	9400 3100 9400 3650
+Wire Wire Line
+	9400 3650 9550 3650
 $EndSCHEMATC

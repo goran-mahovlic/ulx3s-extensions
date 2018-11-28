@@ -2,22 +2,34 @@
 
     [x] PMOD to RFM9X
     [ ] PMOD to RaspiCam
-    [ ] PMOD to OV7670
+    [x] PMOD to OV7670
     [ ] PMOD to RFID-RC522
     [ ] PMOD HDMI
     [ ] PMOD SX1257
 
-Up
+LoRa front
 
-![PMOD_LoRa](LoRa/pic/final_up.png)
+![PMOD_LoRa](pic/LoRa_Front.png)
 
-Down
+LoRa back
 
-![PMOD_LoRa](LoRa/pic/final_down.png)
+![PMOD_LoRa](pic/LoRa_Back.png)
 
-More 3D
+LoRa rotate
 
-![PMOD_LoRa](LoRa/pic/up_rotate.png)
+![PMOD_LoRa](pic/LoRa_Rotate.png)
+
+OV7670 front
+
+![PMOD_LoRa](pic/OV7670_Front.png)
+
+OV7670 back
+
+![PMOD_LoRa](pic/OV7670_Back.png)
+
+OV7670 rotate
+
+![PMOD_LoRa](pic/OV7670_Rotate.png)
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 

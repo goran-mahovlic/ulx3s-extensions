@@ -6,6 +6,7 @@
     [ ] PMOD CAN bus
     [ ] PMOD LVDS
     [ ] PMOD LCD
+    [ ] PMOD MLX90640
     [ ] PMOD ethernet
     [ ] PMOD SX1257
     [ ] PMOD I2S Audio

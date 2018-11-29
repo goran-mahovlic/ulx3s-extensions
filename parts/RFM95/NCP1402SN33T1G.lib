@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# NCP1402SN33T1G
+#
+DEF NCP1402SN33T1G U 0 40 Y Y 1 L N
+F0 "U" -300 300 50 H V L BNN
+F1 "NCP1402SN33T1G" -300 -400 50 H V L BNN
+F2 "SOT95P275X110-5N" 0 0 50 H I L BNN
+F3 "NCP1402 Series 6 V 200 mA PFM Step-Up Micropower Switching Regulator - SOT-23-5" 0 0 50 H I L BNN
+F4 "Unavailable" 0 0 50 H I L BNN
+F5 "ON Semiconductor" 0 0 50 H I L BNN
+F6 "SOT-23 ON Semiconductor" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "NCP1402SN33T1G" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -300 300 300 300 N
+P 2 0 0 10 300 300 300 -300 N
+P 2 0 0 10 300 -300 -300 -300 N
+P 2 0 0 10 -300 -300 -300 300 N
+X CE 1 -500 0 200 R 40 40 0 0 I 
+X OUT 2 500 0 200 L 40 40 0 0 O 
+X LX 5 500 200 200 L 40 40 0 0 P 
+X GND 4 500 -200 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

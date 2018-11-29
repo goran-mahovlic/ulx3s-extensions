@@ -2,7 +2,7 @@
 
     [x] PMOD RFM9X
     [x] PMOD OV7670
-    [ ] PMOD HDMI Input/output
+    [x] PMOD HDMI Input/output
     [ ] PMOD CAN bus
     [ ] PMOD LVDS
     [ ] PMOD LCD
@@ -36,6 +36,18 @@ OV7670 back
 OV7670 rotate
 
 ![PMOD_LoRa](pic/OV7670_Rotate.png)
+
+HDMI front
+
+![PMOD_LoRa](pic/HDMI_Front.png)
+
+HDMI back
+
+![PMOD_LoRa](pic/HDMI_Back.png)
+
+HDMI rotate
+
+![PMOD_LoRa](pic/HDMI_Rotate.png)
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 

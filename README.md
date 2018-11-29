@@ -3,11 +3,14 @@
     [x] PMOD RFM9X
     [x] PMOD OV7670
     [ ] PMOD HDMI Input/output
+    [ ] PMOD CAN bus
     [ ] PMOD LVDS
     [ ] PMOD LCD
     [ ] PMOD ethernet
     [ ] PMOD SX1257
-    [ ] PMOD RaspiCam - May not be needed
+    [ ] PMOD I2S Audio
+    [ ] PMOD I2S microphone
+    [ ] PMOD RaspiCam - May not be needed 
 
 LoRa front
 

@@ -6,7 +6,7 @@
     [ ] PMOD CAN bus
     [ ] PMOD LVDS
     [ ] PMOD LCD
-    [ ] PMOD MLX90640
+    [x] PMOD MLX90640
     [ ] PMOD ethernet
     [ ] PMOD SX1257
     [ ] PMOD I2S Audio
@@ -48,6 +48,15 @@ HDMI back
 HDMI rotate
 
 ![PMOD_LoRa](pic/HDMI_Rotate.png)
+
+MLX90640 front
+
+![PMOD_LoRa](pic/MLX90640_Front.png)
+
+MLX90640 back
+
+![PMOD_LoRa](pic/MLX90640_Back.png)
+
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 

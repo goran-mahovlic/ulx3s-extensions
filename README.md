@@ -11,6 +11,7 @@
     [ ] PMOD SX1257
     [ ] PMOD I2S Audio
     [ ] PMOD I2S microphone
+    [ ] PMOD DB9
     [ ] PMOD RaspiCam - May not be needed 
 
 LoRa front

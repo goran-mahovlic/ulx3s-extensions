@@ -15,6 +15,7 @@
     [ ] PMOD SD Card
     [ ] PMOD VGA
     [ ] PMOD PS/2
+    [ ] PMOD Poteciometers
     [ ] PMOD RaspiCam - May not be needed 
 
 LoRa front

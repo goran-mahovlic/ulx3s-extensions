@@ -12,6 +12,9 @@
     [ ] PMOD I2S Audio
     [ ] PMOD I2S microphone
     [ ] PMOD DB9
+    [ ] PMOD SD Card
+    [ ] PMOD VGA
+    [ ] PMOD PS/2
     [ ] PMOD RaspiCam - May not be needed 
 
 LoRa front
@@ -61,4 +64,4 @@ MLX90640 back
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 
-Helping hands: Marvin(Radiona), Emard(Radiona), Prizma(Radiona)
+Helping hands: Marvin(Radiona), Emard(Radiona), Prizma(Radiona), mmicko

@@ -10,7 +10,7 @@
     [ ] PMOD ethernet
     [ ] PMOD SX1257
     [ ] PMOD I2S Audio
-    [ ] PMOD I2S microphone
+    [x] PMOD I2S microphone
     [ ] PMOD RaspiCam - May not be needed 
 
 LoRa front
@@ -57,6 +57,17 @@ MLX90640 back
 
 ![PMOD_LoRa](pic/MLX90640_Back.png)
 
+I2SMIC front
+
+![PMOD_LoRa](pic/I2SMIC_Front.png)
+
+I2SMIC back
+
+![PMOD_LoRa](pic/I2SMIC_Back.png)
+
+I2SMIC rotate
+
+![PMOD_LoRa](pic/I2SMIC_Rotate.png)
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 

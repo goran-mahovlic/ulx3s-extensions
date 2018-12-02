@@ -82,7 +82,7 @@ SD back
 
 ![PMOD_SD](pic/SD_Back.png)
 
-SD back
+PB9 back
 
 ![PMOD_DB9](pic/DB9_Back.png)
 

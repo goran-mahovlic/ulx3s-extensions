@@ -12,7 +12,7 @@
     [ ] PMOD I2S Audio
     [x] PMOD I2S microphone
     [ ] PMOD DB9
-    [ ] PMOD SD Card
+    [x] PMOD SD Card
     [ ] PMOD VGA
     [ ] PMOD PS/2
     [ ] PMOD Poteciometers
@@ -73,6 +73,14 @@ I2SMIC back
 I2SMIC rotate
 
 ![PMOD_LoRa](pic/I2SMIC_Rotate.png)
+
+SD front
+
+![PMOD_LoRa](pic/SD_Front.png)
+
+SD back
+
+![PMOD_LoRa](pic/SD_Back.png)
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 

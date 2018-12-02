@@ -44,7 +44,7 @@ Text GLabel 7200 4900 2    50   Input ~ 0
 Text GLabel 7200 5000 2    50   Input ~ 0
 GND
 Text GLabel 6500 5400 0    50   Input ~ 0
-CD
+CS
 Text GLabel 6500 5300 0    50   Input ~ 0
 MOSI
 Text GLabel 6500 5200 0    50   Input ~ 0
@@ -92,7 +92,7 @@ MISO
 Text GLabel 5950 3700 0    50   Input ~ 0
 MOSI
 Text GLabel 5950 3600 0    50   Input ~ 0
-CD
+CS
 Text GLabel 5950 4300 0    50   Input ~ 0
 DAT1
 Text GLabel 5950 3500 0    50   Input ~ 0
@@ -307,7 +307,7 @@ MISO
 Text GLabel 9300 3900 3    50   Input ~ 0
 MOSI
 Text GLabel 9550 3900 3    50   Input ~ 0
-CD
+CS
 Text GLabel 9800 3900 3    50   Input ~ 0
 DAT1
 Text GLabel 10050 3900 3    50   Input ~ 0

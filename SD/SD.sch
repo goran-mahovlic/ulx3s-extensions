@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SD-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -35,29 +36,29 @@ F 3 "~" H 6800 5100 50  0001 C CNN
 	1    6800 5100
 	1    0    0    -1  
 $EndComp
-Text GLabel 6500 4900 0    50   Input ~ 0
-3V3
-Text GLabel 6500 5000 0    50   Input ~ 0
-GND
-Text GLabel 7200 4900 2    50   Input ~ 0
-3V3
-Text GLabel 7200 5000 2    50   Input ~ 0
-GND
 Text GLabel 6500 5400 0    50   Input ~ 0
-CS
+3V3
 Text GLabel 6500 5300 0    50   Input ~ 0
-MOSI
-Text GLabel 6500 5200 0    50   Input ~ 0
-MISO
-Text GLabel 6500 5100 0    50   Input ~ 0
-SCK
-Text GLabel 7200 5300 2    50   Input ~ 0
-DAT2
+GND
 Text GLabel 7200 5400 2    50   Input ~ 0
+3V3
+Text GLabel 7200 5300 2    50   Input ~ 0
+GND
+Text GLabel 6500 4900 0    50   Input ~ 0
+CS
+Text GLabel 6500 5000 0    50   Input ~ 0
+MOSI
+Text GLabel 6500 5100 0    50   Input ~ 0
+MISO
+Text GLabel 6500 5200 0    50   Input ~ 0
+SCK
+Text GLabel 7200 5000 2    50   Input ~ 0
+DAT2
+Text GLabel 7200 4900 2    50   Input ~ 0
 DAT1
-Text GLabel 7800 5200 2    50   Input ~ 0
-CD
 Text GLabel 7800 5100 2    50   Input ~ 0
+CD
+Text GLabel 7800 5200 2    50   Input ~ 0
 WP
 Wire Wire Line
 	7100 4900 7200 4900

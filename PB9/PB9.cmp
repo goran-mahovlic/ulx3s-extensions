@@ -1,0 +1,27 @@
+Cmp-Mod V01 Created by PcbNew   date = Sun 02 Dec 2018 08:05:17 PM CET
+
+BeginCmp
+TimeStamp = 5C115AC1
+Path = /5C04138B
+Reference = J1;
+ValeurCmp = PMOD_DB9;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C1148F3
+Path = /5C040FEA
+Reference = J2;
+ValeurCmp = DB9;
+IdModule  = Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C114D94
+Path = /5C042DC8
+Reference = J3;
+ValeurCmp = 5V;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical;
+EndCmp
+
+EndListe

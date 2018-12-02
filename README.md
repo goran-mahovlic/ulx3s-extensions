@@ -14,10 +14,12 @@
     [x] PMOD DB9
     [x] PMOD SD Card
     [ ] PMOD VGA
-    [ ] PMOD PS/2
+    [o] PMOD PS/2
     [ ] PMOD Poteciometers
     [ ] PMOD RaspiCam - May not be needed 
-
+    [ ] PMOD DC Motor with encoder
+    [ ] PMOD thermocouple wire
+ 
 LoRa front
 
 ![PMOD_LoRa](pic/LoRa_Front.png)

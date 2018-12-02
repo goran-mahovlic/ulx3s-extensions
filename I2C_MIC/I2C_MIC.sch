@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:I2C_MIC-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -40,17 +41,17 @@ F 3 "~" H 8350 3700 50  0001 C CNN
 	1    8350 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 8000 4000 0    50   Input ~ 0
-3V3
-Text GLabel 8000 3900 0    50   Input ~ 0
-GND
-Text GLabel 8000 3700 0    50   Input ~ 0
-BCLK
-Text GLabel 8000 3800 0    50   Input ~ 0
-DOUT
-Text GLabel 8000 3600 0    50   Input ~ 0
-WS
 Text GLabel 8000 3500 0    50   Input ~ 0
+3V3
+Text GLabel 8000 3600 0    50   Input ~ 0
+GND
+Text GLabel 8000 3800 0    50   Input ~ 0
+BCLK
+Text GLabel 8000 3700 0    50   Input ~ 0
+DOUT
+Text GLabel 8000 3900 0    50   Input ~ 0
+WS
+Text GLabel 8000 4000 0    50   Input ~ 0
 SELECT
 Wire Wire Line
 	8000 3500 8150 3500

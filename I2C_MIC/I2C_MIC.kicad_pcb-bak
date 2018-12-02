@@ -534,7 +534,7 @@
   )
 
   (module parts:radiona-10mm (layer F.Cu) (tedit 0) (tstamp 5C1D88F0)
-    (at 165.5 93)
+    (at 165.4 92.9)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -1002,7 +1002,7 @@
   )
 
   (module parts:shutleworth-12mm (layer F.Cu) (tedit 0) (tstamp 5C1D89C1)
-    (at 165 80.5)
+    (at 164.9 80.5)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )

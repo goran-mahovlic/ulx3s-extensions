@@ -11,7 +11,7 @@
     [ ] PMOD SX1257
     [ ] PMOD I2S Audio
     [x] PMOD I2S microphone
-    [ ] PMOD DB9
+    [x] PMOD DB9
     [x] PMOD SD Card
     [ ] PMOD VGA
     [ ] PMOD PS/2
@@ -32,55 +32,59 @@ LoRa rotate
 
 OV7670 front
 
-![PMOD_LoRa](pic/OV7670_Front.png)
+![PMOD_OV7670](pic/OV7670_Front.png)
 
 OV7670 back
 
-![PMOD_LoRa](pic/OV7670_Back.png)
+![PMOD_OV7670](pic/OV7670_Back.png)
 
 OV7670 rotate
 
-![PMOD_LoRa](pic/OV7670_Rotate.png)
+![PMOD_OV7670](pic/OV7670_Rotate.png)
 
 HDMI front
 
-![PMOD_LoRa](pic/HDMI_Front.png)
+![PMOD_HDMI](pic/HDMI_Front.png)
 
 HDMI back
 
-![PMOD_LoRa](pic/HDMI_Back.png)
+![PMOD_HDMI](pic/HDMI_Back.png)
 
 HDMI rotate
 
-![PMOD_LoRa](pic/HDMI_Rotate.png)
+![PMOD_HDMI](pic/HDMI_Rotate.png)
 
 MLX90640 front
 
-![PMOD_LoRa](pic/MLX90640_Front.png)
+![PMOD_MLX90640](pic/MLX90640_Front.png)
 
 MLX90640 back
 
-![PMOD_LoRa](pic/MLX90640_Back.png)
+![PMOD_MLX90640](pic/MLX90640_Back.png)
 
 I2SMIC front
 
-![PMOD_LoRa](pic/I2SMIC_Front.png)
+![PMOD_I2SMIC](pic/I2SMIC_Front.png)
 
 I2SMIC back
 
-![PMOD_LoRa](pic/I2SMIC_Back.png)
+![PMOD_I2SMIC](pic/I2SMIC_Back.png)
 
 I2SMIC rotate
 
-![PMOD_LoRa](pic/I2SMIC_Rotate.png)
+![PMOD_I2SMIC](pic/I2SMIC_Rotate.png)
 
 SD front
 
-![PMOD_LoRa](pic/SD_Front.png)
+![PMOD_SD](pic/SD_Front.png)
 
 SD back
 
-![PMOD_LoRa](pic/SD_Back.png)
+![PMOD_SD](pic/SD_Back.png)
+
+SD back
+
+![PMOD_DB9](pic/DB9_Back.png)
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 

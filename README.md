@@ -9,7 +9,7 @@
     [x] PMOD MLX90640
     [ ] PMOD ethernet
     [ ] PMOD SX1257
-    [ ] PMOD I2S Audio
+    [o] PMOD I2S Audio
     [x] PMOD I2S microphone
     [x] PMOD DB9
     [x] PMOD SD Card
@@ -18,7 +18,7 @@
     [ ] PMOD Poteciometers
     [ ] PMOD RaspiCam - May not be needed 
     [ ] PMOD DC Motor with encoder
-    [ ] PMOD thermocouple wire
+    [X] PMOD MAX31855
  
 LoRa front
 
@@ -87,6 +87,18 @@ SD back
 PB9 back
 
 ![PMOD_DB9](pic/DB9_Back.png)
+
+MAX31855 front
+
+![PMOD_SD](pic/MAX31855_Front.png)
+
+MAX31855 back
+
+![PMOD_SD](pic/MAX31855_Back.png)
+
+MAX31855 rotate
+
+![PMOD_SD](pic/MAX31855_Back.png)
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 

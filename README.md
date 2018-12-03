@@ -98,7 +98,7 @@ MAX31855 back
 
 MAX31855 rotate
 
-![PMOD_SD](pic/MAX31855_Back.png)
+![PMOD_SD](pic/MAX31855_Rotate.png)
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 

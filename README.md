@@ -3,22 +3,23 @@
     [x] PMOD RFM9X
     [x] PMOD OV7670
     [x] PMOD HDMI Input/output
-    [ ] PMOD CAN bus
-    [ ] PMOD LVDS
-    [ ] PMOD LCD
     [x] PMOD MLX90640
-    [ ] PMOD ethernet
-    [ ] PMOD SX1257
-    [o] PMOD I2S Audio
     [x] PMOD I2S microphone
     [x] PMOD DB9
     [x] PMOD SD Card
-    [ ] PMOD VGA
+    [x] PMOD MAX31855
     [o] PMOD PS/2
+    [o] PMOD I2S Audio
+    [ ] PMOD CAN bus
+    [ ] PMOD VGA
     [ ] PMOD Poteciometers
+    [ ] PMOD Rotary encoder
+    [ ] PMOD LVDS
+    [ ] PMOD LCD
+    [ ] PMOD ethernet
+    [ ] PMOD SX1257
     [ ] PMOD RaspiCam - May not be needed 
     [ ] PMOD DC Motor with encoder
-    [X] PMOD MAX31855
  
 LoRa front
 

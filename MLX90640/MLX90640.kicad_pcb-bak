@@ -266,9 +266,9 @@
       (rotate (xyz 0 0 0))
     )
     (model ${KISYS3DMOD}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_1x04_P1.00mm_Horizontal.step
-      (at (xyz 0 0 0))
+      (offset (xyz 0 -7.5 0))
       (scale (xyz 2.54 2.54 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 

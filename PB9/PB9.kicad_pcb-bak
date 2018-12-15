@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
     (trace_clearance 0.2)
@@ -1465,7 +1465,7 @@
   )
 
   (module parts:radiona-12mm (layer B.Cu) (tedit 0) (tstamp 5C11842B)
-    (at 151 76)
+    (at 151 76.25)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -2527,7 +2527,7 @@
       (xy -4.516743 0.903446) (xy -4.504214 0.908711) (xy -4.502362 0.909053) (xy -4.503792 0.904278)) (layer B.SilkS) (width 0.01))
   )
 
-  (gr_text 5V (at 162.5 86) (layer F.Mask)
+  (gr_text 5V (at 162.5 86) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text RIGHT (at 168.75 92 180) (layer B.SilkS) (tstamp 5C117CAD)

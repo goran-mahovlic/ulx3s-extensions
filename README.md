@@ -17,8 +17,8 @@
     [ ] PMOD LVDS
     [ ] PMOD LCD
     [ ] PMOD ethernet
-    [ ] PMOD SX1257
-    [ ] PMOD RaspiCam - May not be needed 
+    [ ] PMOD SX1257 - Already in development
+    [ ] PMOD RaspiCam - https://github.com/daveshah1/pmods
     [ ] PMOD DC Motor with encoder
  
 LoRa front

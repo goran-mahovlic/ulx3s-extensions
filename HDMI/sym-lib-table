@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name HDMI-rescue)(type Legacy)(uri ${KIPRJMOD}/HDMI-rescue.lib)(options "")(descr ""))
 )

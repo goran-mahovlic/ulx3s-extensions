@@ -2207,14 +2207,36 @@ Wire Wire Line
 Wire Wire Line
 	3750 4000 3800 4000
 $Comp
-L hdmi-d:HDMI-D P?
+L hdmi-d:HDMI-D P1
 U 1 1 5DF81DAE
 P 4000 4150
-F 0 "P?" H 4078 4191 50  0000 L CNN
+F 0 "P1" H 4078 4191 50  0000 L CNN
 F 1 "HDMI-D" H 4078 4100 50  0000 L CNN
-F 2 "" H 4000 4150 60  0000 C CNN
+F 2 "HDMI:HDMI-D" H 4000 4150 60  0001 C CNN
 F 3 "" H 4000 4150 60  0000 C CNN
 	1    4000 4150
 	1    0    0    -1  
 $EndComp
+Text Label 3400 3300 0    50   ~ 0
+D2+
+Text Label 3400 3500 0    50   ~ 0
+D2-
+Text Label 3600 3600 0    50   ~ 0
+D1+
+Text Label 3400 3800 0    50   ~ 0
+D1-
+Text Label 3600 3900 0    50   ~ 0
+D0+
+Text Label 3450 4100 0    50   ~ 0
+D0-
+Text Label 3600 4200 0    50   ~ 0
+CLK+
+Text Label 3500 4600 0    50   ~ 0
+ETH+
+Text Label 3500 5100 0    50   ~ 0
+ETH-
+Text Label 3600 4500 0    50   ~ 0
+CEC
+Text Label 3450 4400 0    50   ~ 0
+CLK-
 $EndSCHEMATC

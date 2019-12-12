@@ -47,15 +47,15 @@ OV7670 rotate
 
 HDMI front
 
-![PMOD_HDMI](pic/HDMI_Front.png)
+![PMOD_HDMI](pic/HDMI_I_FRONT.png)
 
 HDMI back
 
-![PMOD_HDMI](pic/HDMI_Back.png)
+![PMOD_HDMI](pic/HDMI_I_BACK.png)
 
 HDMI rotate
 
-![PMOD_HDMI](pic/HDMI_Rotate.png)
+![PMOD_HDMI](pic/HDMI_I_ROTATE.png)
 
 MLX90640 front
 

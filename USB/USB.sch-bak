@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Jumper_NC_Small D?
+L Device:Jumper_NC_Small D6
 U 1 1 58D6C83C
 P 3550 2000
-F 0 "D?" H 3550 2100 50  0000 C CNN
+F 0 "D6" H 3550 2100 50  0000 C CNN
 F 1 "0" H 3550 1950 50  0000 C CNN
 F 2 "jumper:D_SMA_Jumper_NC" V 3550 2000 60  0001 C CNN
 F 3 "" V 3550 2000 60  0000 C CNN
@@ -32,10 +32,10 @@ F 9 "Leave empty" H 3550 2000 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR04
 U 1 1 58D6C83D
 P 3700 2000
-F 0 "#PWR?" H 3700 1850 50  0001 C CNN
+F 0 "#PWR04" H 3700 1850 50  0001 C CNN
 F 1 "+5V" H 3700 2140 50  0000 C CNN
 F 2 "" H 3700 2000 60  0000 C CNN
 F 3 "" H 3700 2000 60  0000 C CNN
@@ -43,12 +43,12 @@ F 3 "" H 3700 2000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L usb_otg:USB_OTG US?
+L usb_otg:USB_OTG US3
 U 1 1 58D6C841
 P 2400 2200
-AR Path="/58D6C841" Ref="US?"  Part="1" 
+AR Path="/58D6C841" Ref="US3"  Part="1" 
 AR Path="/58D6BF46/58D6C841" Ref="US?"  Part="1" 
-F 0 "US?" V 2100 2200 50  0000 C CNN
+F 0 "US3" V 2100 2200 50  0000 C CNN
 F 1 "MICRO_USB" H 2400 2400 50  0000 C CNN
 F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 2350 2100 50  0001 C CNN
 F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 2350 2100 50  0001 C CNN
@@ -56,10 +56,10 @@ F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 2350 2100 50  0
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 58D6C843
 P 3050 2400
-F 0 "#PWR?" H 3050 2150 50  0001 C CNN
+F 0 "#PWR02" H 3050 2150 50  0001 C CNN
 F 1 "GND" H 3050 2250 50  0000 C CNN
 F 2 "" H 3050 2400 50  0000 C CNN
 F 3 "" H 3050 2400 50  0000 C CNN
@@ -71,10 +71,10 @@ USB1_FPGA_D-
 Text GLabel 3900 2200 2    60   Input ~ 0
 USB1_FPGA_D+
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 58D8254A
 P 2300 2600
-F 0 "#PWR?" H 2300 2350 50  0001 C CNN
+F 0 "#PWR01" H 2300 2350 50  0001 C CNN
 F 1 "GND" H 2300 2450 50  0000 C CNN
 F 2 "" H 2300 2600 50  0000 C CNN
 F 3 "" H 2300 2600 50  0000 C CNN
@@ -92,12 +92,12 @@ Wire Wire Line
 Wire Wire Line
 	2700 2200 3050 2200
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 591C69FB
 P 3150 4000
-AR Path="/591C69FB" Ref="R?"  Part="1" 
+AR Path="/591C69FB" Ref="R1"  Part="1" 
 AR Path="/58D6BF46/591C69FB" Ref="R?"  Part="1" 
-F 0 "R?" V 3230 4000 50  0000 C CNN
+F 0 "R1" V 3230 4000 50  0000 C CNN
 F 1 "1.1k" V 3150 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4000 50  0001 C CNN
 F 3 "" H 3150 4000 50  0000 C CNN
@@ -107,12 +107,12 @@ $EndComp
 Text Notes 3650 4100 0    60   ~ 0
 D+ 1.5k pullp for \nfull speed device\nmode USB1.1
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 59C0F7B0
 P 3200 2100
-AR Path="/59C0F7B0" Ref="R?"  Part="1" 
+AR Path="/59C0F7B0" Ref="R5"  Part="1" 
 AR Path="/58D6BF46/59C0F7B0" Ref="R?"  Part="1" 
-F 0 "R?" V 3150 2300 50  0000 C CNN
+F 0 "R5" V 3150 2300 50  0000 C CNN
 F 1 "27" V 3200 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 2100 50  0001 C CNN
 F 3 "" H 3200 2100 50  0000 C CNN
@@ -122,12 +122,12 @@ F 5 "AC0603JR-0727RL" V 3200 2100 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 59C0F7B6
 P 3200 2200
-AR Path="/59C0F7B6" Ref="R?"  Part="1" 
+AR Path="/59C0F7B6" Ref="R6"  Part="1" 
 AR Path="/58D6BF46/59C0F7B6" Ref="R?"  Part="1" 
-F 0 "R?" V 3150 2400 50  0000 C CNN
+F 0 "R6" V 3150 2400 50  0000 C CNN
 F 1 "27" V 3200 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 2200 50  0001 C CNN
 F 3 "" H 3200 2200 50  0000 C CNN
@@ -145,10 +145,10 @@ FPD1-
 Text Label 2750 2200 0    60   ~ 0
 FPD1+
 $Comp
-L Device:D_Zener_Small_ALT D?
+L Device:D_Zener_Small_ALT D5
 U 1 1 59C133D8
 P 3500 2350
-F 0 "D?" H 3700 2250 50  0000 C CNN
+F 0 "D5" H 3700 2250 50  0000 C CNN
 F 1 "3.6V" H 3500 2260 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3500 2350 50  0001 C CNN
 F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 3500 2350 50  0001 C CNN
@@ -162,10 +162,10 @@ F 9 "FV002" H 3500 2350 50  0001 C CNN "Koncar"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener_Small_ALT D?
+L Device:D_Zener_Small_ALT D7
 U 1 1 59C134C9
 P 3600 2350
-F 0 "D?" H 3800 2450 50  0000 C CNN
+F 0 "D7" H 3800 2450 50  0000 C CNN
 F 1 "3.6V" H 3600 2450 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 3600 2350 50  0001 C CNN
 F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 3600 2350 50  0001 C CNN
@@ -182,10 +182,10 @@ Wire Wire Line
 Wire Wire Line
 	3600 2550 3600 2450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 59C1372A
 P 3550 2600
-F 0 "#PWR?" H 3550 2350 50  0001 C CNN
+F 0 "#PWR03" H 3550 2350 50  0001 C CNN
 F 1 "GND" H 3550 2450 50  0000 C CNN
 F 2 "" H 3550 2600 50  0001 C CNN
 F 3 "" H 3550 2600 50  0001 C CNN
@@ -200,12 +200,12 @@ Connection ~ 3600 2100
 Text Notes 1550 3450 0    60   ~ 0
 D8,D9: Schottky 2A/30V \nLow drop Vfmax=0.375V\nParts reduction: Only D8 is required.\nD9 D51 D52 can be 1206\n1A polyfuses or 0-ohm/2A jumpers
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 59D562D0
 P 3150 4600
-AR Path="/59D562D0" Ref="R?"  Part="1" 
+AR Path="/59D562D0" Ref="R3"  Part="1" 
 AR Path="/58D6BF46/59D562D0" Ref="R?"  Part="1" 
-F 0 "R?" V 3050 4600 50  0000 C CNN
+F 0 "R3" V 3050 4600 50  0000 C CNN
 F 1 "1.1k" V 3150 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4600 50  0001 C CNN
 F 3 "" H 3150 4600 50  0000 C CNN
@@ -219,12 +219,12 @@ USB1_FPGA_PULL_D+
 Text GLabel 2500 4800 0    60   Input ~ 0
 USB1_FPGA_PULL_D-
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5A71E38F
 P 3150 4200
-AR Path="/5A71E38F" Ref="R?"  Part="1" 
+AR Path="/5A71E38F" Ref="R2"  Part="1" 
 AR Path="/58D6BF46/5A71E38F" Ref="R?"  Part="1" 
-F 0 "R?" V 3230 4200 50  0000 C CNN
+F 0 "R2" V 3230 4200 50  0000 C CNN
 F 1 "15k" V 3150 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4200 50  0001 C CNN
 F 3 "" H 3150 4200 50  0000 C CNN
@@ -232,12 +232,12 @@ F 3 "" H 3150 4200 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 5A71E566
 P 3150 4800
-AR Path="/5A71E566" Ref="R?"  Part="1" 
+AR Path="/5A71E566" Ref="R4"  Part="1" 
 AR Path="/58D6BF46/5A71E566" Ref="R?"  Part="1" 
-F 0 "R?" V 3230 4800 50  0000 C CNN
+F 0 "R4" V 3230 4800 50  0000 C CNN
 F 1 "15k" V 3150 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4800 50  0001 C CNN
 F 3 "" H 3150 4800 50  0000 C CNN
@@ -251,10 +251,10 @@ Wire Wire Line
 Text Notes 1550 3800 0    60   ~ 0
 USB pull lines connected to\nBANK1 on "gpdi" sheet
 $Comp
-L Device:D D?
+L Device:D D2
 U 1 1 5A720D44
 P 2850 4200
-F 0 "D?" H 2550 4300 50  0000 C CNN
+F 0 "D2" H 2550 4300 50  0000 C CNN
 F 1 "1N914" H 2800 4300 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2850 4200 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 2850 4200 50  0001 C CNN
@@ -310,10 +310,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 4800 2700 4800
 $Comp
-L Device:D D?
+L Device:D D4
 U 1 1 5AF760EE
 P 2850 4800
-F 0 "D?" H 2550 4900 50  0000 C CNN
+F 0 "D4" H 2550 4900 50  0000 C CNN
 F 1 "1N914" H 2800 4900 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2850 4800 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 2850 4800 50  0001 C CNN
@@ -321,10 +321,10 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 2850 4800 50  0001 
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D1
 U 1 1 5AF79ABE
 P 2850 4000
-F 0 "D?" H 3150 4100 50  0000 C CNN
+F 0 "D1" H 3150 4100 50  0000 C CNN
 F 1 "1N914" H 2800 4100 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2850 4000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 2850 4000 50  0001 C CNN
@@ -332,10 +332,10 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 2850 4000 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D3
 U 1 1 5AF7B2B2
 P 2850 4600
-F 0 "D?" H 3150 4700 50  0000 C CNN
+F 0 "D3" H 3150 4700 50  0000 C CNN
 F 1 "1N914" H 2800 4700 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2850 4600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 2850 4600 50  0001 C CNN
@@ -364,10 +364,10 @@ STPS2L30AF
 Text GLabel 2700 2300 2    60   Input ~ 0
 US1_ID
 $Comp
-L Device:Jumper_NC_Small D?
+L Device:Jumper_NC_Small D13
 U 1 1 5DF4B6D9
 P 7350 2000
-F 0 "D?" H 7350 2100 50  0000 C CNN
+F 0 "D13" H 7350 2100 50  0000 C CNN
 F 1 "0" H 7350 1950 50  0000 C CNN
 F 2 "jumper:D_SMA_Jumper_NC" V 7350 2000 60  0001 C CNN
 F 3 "" V 7350 2000 60  0000 C CNN
@@ -381,10 +381,10 @@ F 9 "Leave empty" H 7350 2000 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR08
 U 1 1 5DF4B6E3
 P 7500 2000
-F 0 "#PWR?" H 7500 1850 50  0001 C CNN
+F 0 "#PWR08" H 7500 1850 50  0001 C CNN
 F 1 "+5V" H 7500 2140 50  0000 C CNN
 F 2 "" H 7500 2000 60  0000 C CNN
 F 3 "" H 7500 2000 60  0000 C CNN
@@ -392,12 +392,12 @@ F 3 "" H 7500 2000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L usb_otg:USB_OTG US?
+L usb_otg:USB_OTG US4
 U 1 1 5DF4B6ED
 P 6200 2200
-AR Path="/5DF4B6ED" Ref="US?"  Part="1" 
+AR Path="/5DF4B6ED" Ref="US4"  Part="1" 
 AR Path="/58D6BF46/5DF4B6ED" Ref="US?"  Part="1" 
-F 0 "US?" V 5900 2200 50  0000 C CNN
+F 0 "US4" V 5900 2200 50  0000 C CNN
 F 1 "MICRO_USB" H 6200 2400 50  0000 C CNN
 F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 6150 2100 50  0001 C CNN
 F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 6150 2100 50  0001 C CNN
@@ -405,10 +405,10 @@ F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 6150 2100 50  0
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 5DF4B6F7
 P 6850 2400
-F 0 "#PWR?" H 6850 2150 50  0001 C CNN
+F 0 "#PWR06" H 6850 2150 50  0001 C CNN
 F 1 "GND" H 6850 2250 50  0000 C CNN
 F 2 "" H 6850 2400 50  0000 C CNN
 F 3 "" H 6850 2400 50  0000 C CNN
@@ -420,10 +420,10 @@ USB2_FPGA_D-
 Text GLabel 7700 2200 2    60   Input ~ 0
 USB2_FPGA_D+
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5DF4B703
 P 6100 2600
-F 0 "#PWR?" H 6100 2350 50  0001 C CNN
+F 0 "#PWR05" H 6100 2350 50  0001 C CNN
 F 1 "GND" H 6100 2450 50  0000 C CNN
 F 2 "" H 6100 2600 50  0000 C CNN
 F 3 "" H 6100 2600 50  0000 C CNN
@@ -441,12 +441,12 @@ Wire Wire Line
 Wire Wire Line
 	6500 2200 6850 2200
 $Comp
-L Device:R R?
+L Device:R R7
 U 1 1 5DF4B712
 P 6950 4000
-AR Path="/5DF4B712" Ref="R?"  Part="1" 
+AR Path="/5DF4B712" Ref="R7"  Part="1" 
 AR Path="/58D6BF46/5DF4B712" Ref="R?"  Part="1" 
-F 0 "R?" V 7030 4000 50  0000 C CNN
+F 0 "R7" V 7030 4000 50  0000 C CNN
 F 1 "1.1k" V 6950 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 4000 50  0001 C CNN
 F 3 "" H 6950 4000 50  0000 C CNN
@@ -456,12 +456,12 @@ $EndComp
 Text Notes 7450 4100 0    60   ~ 0
 D+ 1.5k pullp for \nfull speed device\nmode USB1.1
 $Comp
-L Device:R R?
+L Device:R R11
 U 1 1 5DF4B71F
 P 7000 2100
-AR Path="/5DF4B71F" Ref="R?"  Part="1" 
+AR Path="/5DF4B71F" Ref="R11"  Part="1" 
 AR Path="/58D6BF46/5DF4B71F" Ref="R?"  Part="1" 
-F 0 "R?" V 6950 2300 50  0000 C CNN
+F 0 "R11" V 6950 2300 50  0000 C CNN
 F 1 "27" V 7000 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 2100 50  0001 C CNN
 F 3 "" H 7000 2100 50  0000 C CNN
@@ -471,12 +471,12 @@ F 5 "AC0603JR-0727RL" V 7000 2100 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R12
 U 1 1 5DF4B72B
 P 7000 2200
-AR Path="/5DF4B72B" Ref="R?"  Part="1" 
+AR Path="/5DF4B72B" Ref="R12"  Part="1" 
 AR Path="/58D6BF46/5DF4B72B" Ref="R?"  Part="1" 
-F 0 "R?" V 6950 2400 50  0000 C CNN
+F 0 "R12" V 6950 2400 50  0000 C CNN
 F 1 "27" V 7000 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 2200 50  0001 C CNN
 F 3 "" H 7000 2200 50  0000 C CNN
@@ -494,10 +494,10 @@ FPD2-
 Text Label 6550 2200 0    60   ~ 0
 FPD2+
 $Comp
-L Device:D_Zener_Small_ALT D?
+L Device:D_Zener_Small_ALT D12
 U 1 1 5DF4B73F
 P 7300 2350
-F 0 "D?" H 7500 2250 50  0000 C CNN
+F 0 "D12" H 7500 2250 50  0000 C CNN
 F 1 "3.6V" H 7300 2260 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 7300 2350 50  0001 C CNN
 F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 7300 2350 50  0001 C CNN
@@ -511,10 +511,10 @@ F 9 "FV002" H 7300 2350 50  0001 C CNN "Koncar"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener_Small_ALT D?
+L Device:D_Zener_Small_ALT D14
 U 1 1 5DF4B74C
 P 7400 2350
-F 0 "D?" H 7600 2450 50  0000 C CNN
+F 0 "D14" H 7600 2450 50  0000 C CNN
 F 1 "3.6V" H 7400 2450 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 7400 2350 50  0001 C CNN
 F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 7400 2350 50  0001 C CNN
@@ -531,10 +531,10 @@ Wire Wire Line
 Wire Wire Line
 	7400 2550 7400 2450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 5DF4B759
 P 7350 2600
-F 0 "#PWR?" H 7350 2350 50  0001 C CNN
+F 0 "#PWR07" H 7350 2350 50  0001 C CNN
 F 1 "GND" H 7350 2450 50  0000 C CNN
 F 2 "" H 7350 2600 50  0001 C CNN
 F 3 "" H 7350 2600 50  0001 C CNN
@@ -547,12 +547,12 @@ Connection ~ 7350 2550
 Connection ~ 7300 2200
 Connection ~ 7400 2100
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 5DF4B768
 P 6950 4600
-AR Path="/5DF4B768" Ref="R?"  Part="1" 
+AR Path="/5DF4B768" Ref="R9"  Part="1" 
 AR Path="/58D6BF46/5DF4B768" Ref="R?"  Part="1" 
-F 0 "R?" V 6850 4600 50  0000 C CNN
+F 0 "R9" V 6850 4600 50  0000 C CNN
 F 1 "1.1k" V 6950 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 4600 50  0001 C CNN
 F 3 "" H 6950 4600 50  0000 C CNN
@@ -566,12 +566,12 @@ USB2_FPGA_PULL_D+
 Text GLabel 6300 4800 0    60   Input ~ 0
 USB2_FPGA_PULL_D-
 $Comp
-L Device:R R?
+L Device:R R8
 U 1 1 5DF4B775
 P 6950 4200
-AR Path="/5DF4B775" Ref="R?"  Part="1" 
+AR Path="/5DF4B775" Ref="R8"  Part="1" 
 AR Path="/58D6BF46/5DF4B775" Ref="R?"  Part="1" 
-F 0 "R?" V 7030 4200 50  0000 C CNN
+F 0 "R8" V 7030 4200 50  0000 C CNN
 F 1 "15k" V 6950 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 4200 50  0001 C CNN
 F 3 "" H 6950 4200 50  0000 C CNN
@@ -579,12 +579,12 @@ F 3 "" H 6950 4200 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R10
 U 1 1 5DF4B77F
 P 6950 4800
-AR Path="/5DF4B77F" Ref="R?"  Part="1" 
+AR Path="/5DF4B77F" Ref="R10"  Part="1" 
 AR Path="/58D6BF46/5DF4B77F" Ref="R?"  Part="1" 
-F 0 "R?" V 7030 4800 50  0000 C CNN
+F 0 "R10" V 7030 4800 50  0000 C CNN
 F 1 "15k" V 6950 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 4800 50  0001 C CNN
 F 3 "" H 6950 4800 50  0000 C CNN
@@ -598,10 +598,10 @@ Wire Wire Line
 Text Notes 5350 3800 0    60   ~ 0
 USB pull lines connected to\nBANK1 on "gpdi" sheet
 $Comp
-L Device:D D?
+L Device:D D9
 U 1 1 5DF4B78C
 P 6650 4200
-F 0 "D?" H 6350 4300 50  0000 C CNN
+F 0 "D9" H 6350 4300 50  0000 C CNN
 F 1 "1N914" H 6600 4300 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6650 4200 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 6650 4200 50  0001 C CNN
@@ -657,10 +657,10 @@ Wire Wire Line
 Wire Wire Line
 	6400 4800 6500 4800
 $Comp
-L Device:D D?
+L Device:D D11
 U 1 1 5DF4B7B0
 P 6650 4800
-F 0 "D?" H 6350 4900 50  0000 C CNN
+F 0 "D11" H 6350 4900 50  0000 C CNN
 F 1 "1N914" H 6600 4900 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6650 4800 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 6650 4800 50  0001 C CNN
@@ -668,10 +668,10 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 6650 4800 50  0001 
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D8
 U 1 1 5DF4B7BA
 P 6650 4000
-F 0 "D?" H 6950 4100 50  0000 C CNN
+F 0 "D8" H 6950 4100 50  0000 C CNN
 F 1 "1N914" H 6600 4100 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6650 4000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 6650 4000 50  0001 C CNN
@@ -679,10 +679,10 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 6650 4000 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D10
 U 1 1 5DF4B7C5
 P 6650 4600
-F 0 "D?" H 6950 4700 50  0000 C CNN
+F 0 "D10" H 6950 4700 50  0000 C CNN
 F 1 "1N914" H 6600 4700 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6650 4600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 6650 4600 50  0001 C CNN
@@ -3493,21 +3493,21 @@ F5 A2 95 D6 D2 E6 8D 5A 77 E0 EB 9C 9E 7E FA A9 FF 07 22 76 17 82 6D EB D8 43 00
 EndData
 $EndBitmap
 $Comp
-L Connector_Generic:Conn_02x12_Odd_Even J?
+L Connector_Generic:Conn_02x12_Odd_Even J1
 U 1 1 5DF73C50
-P 9350 2950
-F 0 "J?" H 9400 3667 50  0000 C CNN
-F 1 "Conn_02x12_Odd_Even" H 9400 3576 50  0000 C CNN
-F 2 "" H 9350 2950 50  0001 C CNN
-F 3 "~" H 9350 2950 50  0001 C CNN
-	1    9350 2950
-	1    0    0    -1  
+P 9450 3050
+F 0 "J1" H 9500 3767 50  0000 C CNN
+F 1 "Conn_02x12_Odd_Even" H 9500 3676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Horizontal" H 9450 3050 50  0001 C CNN
+F 3 "~" H 9450 3050 50  0001 C CNN
+	1    9450 3050
+	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR010
 U 1 1 5DF75BA9
 P 9050 2450
-F 0 "#PWR?" H 9050 2300 50  0001 C CNN
+F 0 "#PWR010" H 9050 2300 50  0001 C CNN
 F 1 "+5V" V 9050 2650 50  0000 C CNN
 F 2 "" H 9050 2450 60  0000 C CNN
 F 3 "" H 9050 2450 60  0000 C CNN
@@ -3515,10 +3515,10 @@ F 3 "" H 9050 2450 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR013
 U 1 1 5DF7620B
 P 9750 2450
-F 0 "#PWR?" H 9750 2300 50  0001 C CNN
+F 0 "#PWR013" H 9750 2300 50  0001 C CNN
 F 1 "+5V" V 9750 2650 50  0000 C CNN
 F 2 "" H 9750 2450 60  0000 C CNN
 F 3 "" H 9750 2450 60  0000 C CNN
@@ -3530,10 +3530,10 @@ Wire Wire Line
 Wire Wire Line
 	9650 2450 9750 2450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 5DF79251
 P 9050 2550
-F 0 "#PWR?" H 9050 2300 50  0001 C CNN
+F 0 "#PWR011" H 9050 2300 50  0001 C CNN
 F 1 "GND" V 9050 2350 50  0000 C CNN
 F 2 "" H 9050 2550 50  0001 C CNN
 F 3 "" H 9050 2550 50  0001 C CNN
@@ -3541,10 +3541,10 @@ F 3 "" H 9050 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR014
 U 1 1 5DF79725
 P 9750 2550
-F 0 "#PWR?" H 9750 2300 50  0001 C CNN
+F 0 "#PWR014" H 9750 2300 50  0001 C CNN
 F 1 "GND" V 9750 2350 50  0000 C CNN
 F 2 "" H 9750 2550 50  0001 C CNN
 F 3 "" H 9750 2550 50  0001 C CNN
@@ -3561,23 +3561,15 @@ Text GLabel 9750 2850 2    50   Input ~ 0
 GN25
 Text GLabel 9750 2950 2    50   Input ~ 0
 GN24
-Text GLabel 9750 3050 2    50   Input ~ 0
-GN23
-Text GLabel 9750 3150 2    50   Input ~ 0
-GN22
-Text GLabel 9750 3250 2    50   Input ~ 0
-GN21
 Text GLabel 9750 3450 2    50   Input ~ 0
 +3V3
-Text GLabel 9750 3550 2    50   Input ~ 0
-GN20
 Text GLabel 9750 2650 2    50   Input ~ 0
 GN27
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 5DF7EFD2
 P 9000 3350
-F 0 "#PWR?" H 9000 3100 50  0001 C CNN
+F 0 "#PWR09" H 9000 3100 50  0001 C CNN
 F 1 "GND" V 9000 3150 50  0000 C CNN
 F 2 "" H 9000 3350 50  0001 C CNN
 F 3 "" H 9000 3350 50  0001 C CNN
@@ -3590,23 +3582,15 @@ Text GLabel 9050 2850 0    50   Input ~ 0
 GP25
 Text GLabel 9050 2950 0    50   Input ~ 0
 GP24
-Text GLabel 9050 3050 0    50   Input ~ 0
-GP23
-Text GLabel 9050 3150 0    50   Input ~ 0
-GP22
-Text GLabel 9050 3250 0    50   Input ~ 0
-GP21
 Text GLabel 9050 3450 0    50   Input ~ 0
 +3V3
-Text GLabel 9050 3550 0    50   Input ~ 0
-GP20
 Text GLabel 9050 2650 0    50   Input ~ 0
 GP27
 $Comp
-L power:GND #PWR?
+L power:GND #PWR015
 U 1 1 5DF83391
 P 9750 3350
-F 0 "#PWR?" H 9750 3100 50  0001 C CNN
+F 0 "#PWR015" H 9750 3100 50  0001 C CNN
 F 1 "GND" V 9750 3150 50  0000 C CNN
 F 2 "" H 9750 3350 50  0001 C CNN
 F 3 "" H 9750 3350 50  0001 C CNN
@@ -3654,23 +3638,23 @@ Wire Wire Line
 Wire Wire Line
 	9050 3550 9150 3550
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J?
+L Connector_Generic:Conn_02x06_Odd_Even J2
 U 1 1 5DFAA8B3
-P 9350 4400
-F 0 "J?" H 9400 4817 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 9400 4726 50  0000 C CNN
-F 2 "" H 9350 4400 50  0001 C CNN
-F 3 "~" H 9350 4400 50  0001 C CNN
-	1    9350 4400
-	1    0    0    -1  
+P 9450 4400
+F 0 "J2" H 9500 4817 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 9500 4726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 9450 4400 50  0001 C CNN
+F 3 "~" H 9450 4400 50  0001 C CNN
+	1    9450 4400
+	-1   0    0    -1  
 $EndComp
 Text GLabel 9750 4700 2    50   Input ~ 0
 +3V3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 5DFAC12F
 P 9750 4600
-F 0 "#PWR?" H 9750 4350 50  0001 C CNN
+F 0 "#PWR016" H 9750 4350 50  0001 C CNN
 F 1 "GND" V 9750 4400 50  0000 C CNN
 F 2 "" H 9750 4600 50  0001 C CNN
 F 3 "" H 9750 4600 50  0001 C CNN
@@ -3678,10 +3662,10 @@ F 3 "" H 9750 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR012
 U 1 1 5DFAC5A9
 P 9050 4600
-F 0 "#PWR?" H 9050 4350 50  0001 C CNN
+F 0 "#PWR012" H 9050 4350 50  0001 C CNN
 F 1 "GND" V 9050 4400 50  0000 C CNN
 F 2 "" H 9050 4600 50  0001 C CNN
 F 3 "" H 9050 4600 50  0001 C CNN
@@ -3698,4 +3682,100 @@ Text GLabel 9050 4400 0    50   Input ~ 0
 GN25
 Text GLabel 9050 4500 0    50   Input ~ 0
 GN24
+Text GLabel 9750 4200 2    50   Input ~ 0
+GP27
+Text GLabel 9750 4300 2    50   Input ~ 0
+GP26
+Text GLabel 9750 4400 2    50   Input ~ 0
+GP25
+Text GLabel 9750 4500 2    50   Input ~ 0
+GP24
+Wire Wire Line
+	9050 4200 9150 4200
+Wire Wire Line
+	9650 4200 9750 4200
+Wire Wire Line
+	9050 4300 9150 4300
+Wire Wire Line
+	9050 4400 9150 4400
+Wire Wire Line
+	9050 4500 9150 4500
+Wire Wire Line
+	9050 4600 9150 4600
+Wire Wire Line
+	9050 4700 9150 4700
+Wire Wire Line
+	9650 4300 9750 4300
+Wire Wire Line
+	9650 4400 9750 4400
+Wire Wire Line
+	9650 4500 9750 4500
+Wire Wire Line
+	9650 4600 9750 4600
+Wire Wire Line
+	9650 4700 9750 4700
+Text GLabel 9750 3250 2    60   Input ~ 0
+USB1_FPGA_D-
+Text GLabel 9050 3250 0    60   Input ~ 0
+USB1_FPGA_D+
+Text GLabel 9750 3550 2    60   Input ~ 0
+USB2_FPGA_D-
+Text GLabel 9050 3550 0    60   Input ~ 0
+USB2_FPGA_D+
+Text GLabel 9050 3150 0    60   Input ~ 0
+USB1_FPGA_PULL_D+
+Text GLabel 9750 3150 2    60   Input ~ 0
+USB1_FPGA_PULL_D-
+Text GLabel 9050 3050 0    60   Input ~ 0
+USB2_FPGA_PULL_D+
+Text GLabel 9750 3050 2    60   Input ~ 0
+USB2_FPGA_PULL_D-
+$Comp
+L Device:R R13
+U 1 1 5DF38F4F
+P 5500 1200
+AR Path="/5DF38F4F" Ref="R13"  Part="1" 
+AR Path="/58D6BF46/5DF38F4F" Ref="R?"  Part="1" 
+F 0 "R13" V 5450 1400 50  0000 C CNN
+F 1 "0Ohm" V 5500 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 1200 50  0001 C CNN
+F 3 "" H 5500 1200 50  0000 C CNN
+F 4 "www.yageo.com" V 5500 1200 50  0001 C CNN "MNF1_URL"
+F 5 "AC0603JR-0727RL" V 5500 1200 50  0001 C CNN "MPN"
+	1    5500 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5DF395CD
+P 5500 1350
+AR Path="/5DF395CD" Ref="R14"  Part="1" 
+AR Path="/58D6BF46/5DF395CD" Ref="R?"  Part="1" 
+F 0 "R14" V 5450 1550 50  0000 C CNN
+F 1 "0Ohm" V 5500 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 1350 50  0001 C CNN
+F 3 "" H 5500 1350 50  0000 C CNN
+F 4 "www.yageo.com" V 5500 1350 50  0001 C CNN "MNF1_URL"
+F 5 "AC0603JR-0727RL" V 5500 1350 50  0001 C CNN "MPN"
+	1    5500 1350
+	0    1    1    0   
+$EndComp
+Text GLabel 5200 1200 0    60   Input ~ 0
+US1_ID
+Text GLabel 5200 1350 0    60   Input ~ 0
+US2_ID
+Text GLabel 5800 1350 2    50   Input ~ 0
+GP24
+Text GLabel 5800 1200 2    50   Input ~ 0
+GN24
+Wire Wire Line
+	5200 1200 5350 1200
+Wire Wire Line
+	5650 1200 5800 1200
+Wire Wire Line
+	5200 1350 5350 1350
+Wire Wire Line
+	5650 1350 5800 1350
+Text Notes 4850 950  0    50   ~ 0
+Not connected, but just in case someone wants to use it...
 $EndSCHEMATC

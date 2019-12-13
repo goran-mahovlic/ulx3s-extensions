@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:USB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -42,30 +41,6 @@ F 3 "" H 3700 2000 60  0000 C CNN
 	1    3700 2000
 	0    1    1    0   
 $EndComp
-$Comp
-L usb_otg:USB_OTG US3
-U 1 1 58D6C841
-P 2400 2200
-AR Path="/58D6C841" Ref="US3"  Part="1" 
-AR Path="/58D6BF46/58D6C841" Ref="US?"  Part="1" 
-F 0 "US3" V 2100 2200 50  0000 C CNN
-F 1 "MICRO_USB" H 2400 2400 50  0000 C CNN
-F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 2350 2100 50  0001 C CNN
-F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 2350 2100 50  0001 C CNN
-	1    2400 2200
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 58D6C843
-P 3050 2400
-F 0 "#PWR02" H 3050 2150 50  0001 C CNN
-F 1 "GND" H 3050 2250 50  0000 C CNN
-F 2 "" H 3050 2400 50  0000 C CNN
-F 3 "" H 3050 2400 50  0000 C CNN
-	1    3050 2400
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3900 2100 2    60   Input ~ 0
 USB1_FPGA_D-
 Text GLabel 3900 2200 2    60   Input ~ 0
@@ -73,24 +48,18 @@ USB1_FPGA_D+
 $Comp
 L power:GND #PWR01
 U 1 1 58D8254A
-P 2300 2600
-F 0 "#PWR01" H 2300 2350 50  0001 C CNN
-F 1 "GND" H 2300 2450 50  0000 C CNN
-F 2 "" H 2300 2600 50  0000 C CNN
-F 3 "" H 2300 2600 50  0000 C CNN
-	1    2300 2600
+P 2300 2700
+F 0 "#PWR01" H 2300 2450 50  0001 C CNN
+F 1 "GND" H 2300 2550 50  0000 C CNN
+F 2 "" H 2300 2700 50  0000 C CNN
+F 3 "" H 2300 2700 50  0000 C CNN
+	1    2300 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3650 2000 3700 2000
 Wire Wire Line
-	2700 2000 3450 2000
-Wire Wire Line
-	2700 2400 3050 2400
-Wire Wire Line
 	2700 2100 3050 2100
-Wire Wire Line
-	2700 2200 3050 2200
 $Comp
 L Device:R R1
 U 1 1 591C69FB
@@ -361,8 +330,6 @@ Wire Notes Line
 	3600 1750 3700 1750
 Text Notes 3300 1700 0    60   ~ 0
 STPS2L30AF
-Text GLabel 2700 2300 2    60   Input ~ 0
-US1_ID
 $Comp
 L Device:Jumper_NC_Small D13
 U 1 1 5DF4B6D9
@@ -391,30 +358,6 @@ F 3 "" H 7500 2000 60  0000 C CNN
 	1    7500 2000
 	0    1    1    0   
 $EndComp
-$Comp
-L usb_otg:USB_OTG US4
-U 1 1 5DF4B6ED
-P 6200 2200
-AR Path="/5DF4B6ED" Ref="US4"  Part="1" 
-AR Path="/58D6BF46/5DF4B6ED" Ref="US?"  Part="1" 
-F 0 "US4" V 5900 2200 50  0000 C CNN
-F 1 "MICRO_USB" H 6200 2400 50  0000 C CNN
-F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 6150 2100 50  0001 C CNN
-F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 6150 2100 50  0001 C CNN
-	1    6200 2200
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5DF4B6F7
-P 6850 2400
-F 0 "#PWR06" H 6850 2150 50  0001 C CNN
-F 1 "GND" H 6850 2250 50  0000 C CNN
-F 2 "" H 6850 2400 50  0000 C CNN
-F 3 "" H 6850 2400 50  0000 C CNN
-	1    6850 2400
-	0    -1   -1   0   
-$EndComp
 Text GLabel 7700 2100 2    60   Input ~ 0
 USB2_FPGA_D-
 Text GLabel 7700 2200 2    60   Input ~ 0
@@ -433,13 +376,7 @@ $EndComp
 Wire Wire Line
 	7450 2000 7500 2000
 Wire Wire Line
-	6500 2000 7250 2000
-Wire Wire Line
-	6500 2400 6850 2400
-Wire Wire Line
 	6500 2100 6850 2100
-Wire Wire Line
-	6500 2200 6850 2200
 $Comp
 L Device:R R7
 U 1 1 5DF4B712
@@ -706,8 +643,6 @@ Wire Notes Line
 	7400 1750 7500 1750
 Text Notes 7100 1700 0    60   ~ 0
 STPS2L30AF
-Text GLabel 6500 2300 2    60   Input ~ 0
-US2_ID
 $Bitmap
 Pos 9400 1400
 Scale 1.000000
@@ -3720,54 +3655,6 @@ USB2_FPGA_PULL_D+
 Text GLabel 9750 3050 2    60   Input ~ 0
 USB2_FPGA_PULL_D-
 $Comp
-L Device:R R13
-U 1 1 5DF38F4F
-P 5500 1200
-AR Path="/5DF38F4F" Ref="R13"  Part="1" 
-AR Path="/58D6BF46/5DF38F4F" Ref="R?"  Part="1" 
-F 0 "R13" V 5450 1400 50  0000 C CNN
-F 1 "0Ohm" V 5500 1200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 1200 50  0001 C CNN
-F 3 "" H 5500 1200 50  0000 C CNN
-F 4 "www.yageo.com" V 5500 1200 50  0001 C CNN "MNF1_URL"
-F 5 "AC0603JR-0727RL" V 5500 1200 50  0001 C CNN "MPN"
-	1    5500 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 5DF395CD
-P 5500 1350
-AR Path="/5DF395CD" Ref="R14"  Part="1" 
-AR Path="/58D6BF46/5DF395CD" Ref="R?"  Part="1" 
-F 0 "R14" V 5450 1550 50  0000 C CNN
-F 1 "0Ohm" V 5500 1350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 1350 50  0001 C CNN
-F 3 "" H 5500 1350 50  0000 C CNN
-F 4 "www.yageo.com" V 5500 1350 50  0001 C CNN "MNF1_URL"
-F 5 "AC0603JR-0727RL" V 5500 1350 50  0001 C CNN "MPN"
-	1    5500 1350
-	0    1    1    0   
-$EndComp
-Text GLabel 5200 1200 0    60   Input ~ 0
-US1_ID
-Text GLabel 5200 1350 0    60   Input ~ 0
-US2_ID
-Text GLabel 5800 1350 2    50   Input ~ 0
-GP24
-Text GLabel 5800 1200 2    50   Input ~ 0
-GN24
-Wire Wire Line
-	5200 1200 5350 1200
-Wire Wire Line
-	5650 1200 5800 1200
-Wire Wire Line
-	5200 1350 5350 1350
-Wire Wire Line
-	5650 1350 5800 1350
-Text Notes 4850 950  0    50   ~ 0
-Not connected, but just in case someone wants to use it...
-$Comp
 L Connector_Generic:Conn_02x06_Odd_Even J2
 U 1 1 5DFAA8B3
 P 9350 4500
@@ -3778,4 +3665,68 @@ F 3 "~" H 9350 4500 50  0001 C CNN
 	1    9350 4500
 	1    0    0    1   
 $EndComp
+$Comp
+L Connector:USB_A US4
+U 1 1 5DF9BA2D
+P 6100 2200
+F 0 "US4" H 6157 2667 50  0000 C CNN
+F 1 "USB_A" H 6157 2576 50  0000 C CNN
+F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 6250 2150 50  0001 C CNN
+F 3 " ~" H 6250 2150 50  0001 C CNN
+	1    6100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A US3
+U 1 1 5DF9C01F
+P 2300 2200
+F 0 "US3" H 2357 2667 50  0000 C CNN
+F 1 "USB_A" H 2357 2576 50  0000 C CNN
+F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 2450 2150 50  0001 C CNN
+F 3 " ~" H 2450 2150 50  0001 C CNN
+	1    2300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DF9EB7F
+P 6000 2600
+F 0 "#PWR0101" H 6000 2350 50  0001 C CNN
+F 1 "GND" H 6000 2450 50  0000 C CNN
+F 2 "" H 6000 2600 50  0000 C CNN
+F 3 "" H 6000 2600 50  0000 C CNN
+	1    6000 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2200 6850 2200
+Wire Wire Line
+	6400 2300 6500 2300
+Wire Wire Line
+	6500 2300 6500 2100
+Wire Wire Line
+	6400 2000 7250 2000
+Wire Wire Line
+	2300 2700 2300 2600
+$Comp
+L power:GND #PWR0102
+U 1 1 5DFB033D
+P 2200 2700
+F 0 "#PWR0102" H 2200 2450 50  0001 C CNN
+F 1 "GND" H 2200 2550 50  0000 C CNN
+F 2 "" H 2200 2700 50  0000 C CNN
+F 3 "" H 2200 2700 50  0000 C CNN
+	1    2200 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2600 2200 2700
+Wire Wire Line
+	2600 2200 3050 2200
+Wire Wire Line
+	2600 2300 2700 2300
+Wire Wire Line
+	2700 2300 2700 2100
+Wire Wire Line
+	2600 2000 3450 2000
 $EndSCHEMATC

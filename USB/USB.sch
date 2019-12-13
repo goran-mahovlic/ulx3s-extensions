@@ -3770,12 +3770,12 @@ Not connected, but just in case someone wants to use it...
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J2
 U 1 1 5DFAA8B3
-P 9350 4400
-F 0 "J2" H 9400 4817 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 9400 4726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 9350 4400 50  0001 C CNN
-F 3 "~" H 9350 4400 50  0001 C CNN
-	1    9350 4400
-	1    0    0    -1  
+P 9350 4500
+F 0 "J2" H 9400 4917 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 9400 4826 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 9350 4500 50  0001 C CNN
+F 3 "~" H 9350 4500 50  0001 C CNN
+	1    9350 4500
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

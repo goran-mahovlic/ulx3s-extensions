@@ -33,6 +33,18 @@ LoRa rotate
 
 ![PMOD_LoRa](pic/LoRa_Rotate.png)
 
+MicroUSB front
+
+![PMOD_uUSB](pic/USB_micro_Front.png)
+
+MicroUSB back
+
+![PMOD_uUSB](pic/USB_micro_Back.png)
+
+MicroUSB rotate
+
+![PMOD_uUSB](pic/USB_micro_Rotate.png)
+
 OV7670 front
 
 ![PMOD_OV7670](pic/OV7670_Front.png)

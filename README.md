@@ -45,6 +45,18 @@ MicroUSB rotate
 
 ![PMOD_uUSB](pic/USB_micro_Rotate.png)
 
+USB front
+
+![PMOD_USB](pic/USB_Front.png)
+
+USB back
+
+![PMOD_USB](pic/USB_Back.png)
+
+USB rotate
+
+![PMOD_USB](pic/USB_Rotate.png)
+
 OV7670 front
 
 ![PMOD_OV7670](pic/OV7670_Front.png)

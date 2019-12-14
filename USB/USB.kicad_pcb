@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2+dfsg1-1)
 
   (general
     (thickness 1.6)
@@ -42,6 +42,8 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
+    (segment_width 0.2)
+    (edge_width 0.05)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -53,8 +55,6 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
-    (edge_width 0.05)
-    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.12)
@@ -3181,12 +3181,7 @@
       (net 8 GND))
     (pad 5 thru_hole circle (at 10.07 2.71 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask)
       (net 8 GND))
-    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_A_Stewart_SS-52100-001_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model C:/GIT/ulx3s-PMOD/parts/USB_A/usb_A.wrl
+    (model ../parts/USB_A/usb_A.wrl
       (offset (xyz 3.5 -6 -1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3260,12 +3255,7 @@
       (net 33 /FPD2+))
     (pad 4 thru_hole circle (at 7 0 180) (size 1.6 1.6) (drill 0.92) (layers *.Cu *.Mask)
       (net 8 GND))
-    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_A_Stewart_SS-52100-001_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model C:/GIT/ulx3s-PMOD/parts/USB_A/usb_A.wrl
+    (model ../parts/USB_A/usb_A.wrl
       (offset (xyz 3.5 -6 -1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3493,7 +3483,6 @@
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
 
-  (via (at 152.781 99.568) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 18))
   (segment (start 133.235 108.057) (end 130.556 108.057) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 133.985 108.057) (end 133.235 108.057) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 122.848001 98.639999) (end 123.698 97.79) (width 0.25) (layer F.Cu) (net 1))
@@ -3642,6 +3631,7 @@
   (segment (start 153.289 104.013) (end 154.813 102.489) (width 0.25) (layer F.Cu) (net 16))
   (segment (start 156.718 104.807) (end 156.718 101.1175) (width 0.25) (layer F.Cu) (net 17))
   (segment (start 156.718 105.557) (end 156.718 104.807) (width 0.25) (layer F.Cu) (net 17))
+  (via (at 152.781 99.568) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 18))
   (segment (start 149.97399 101.637113) (end 149.97399 100.504487) (width 0.2) (layer F.Cu) (net 18))
   (segment (start 152.123478 98.354999) (end 153.256104 98.354999) (width 0.2) (layer F.Cu) (net 18))
   (segment (start 149.97399 100.504487) (end 152.123478 98.354999) (width 0.2) (layer F.Cu) (net 18))

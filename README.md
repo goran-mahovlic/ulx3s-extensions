@@ -8,7 +8,7 @@
     [x] PMOD DB9
     [x] PMOD SD Card
     [x] PMOD MAX31855
-    [o] PMOD PS/2
+    [x] PMOD ENC28J60
     [o] PMOD I2S Audio
     [ ] PMOD CAN bus
     [ ] PMOD VGA
@@ -57,17 +57,13 @@ USB rotate
 
 ![PMOD_USB](pic/USB_Rotate.png)
 
-OV7670 front
+ENC28J60 front
 
-![PMOD_OV7670](pic/OV7670_Front.png)
+![PMOD_USB](pic/ENC28J60_Front.png)
 
-OV7670 back
+ENC28J60 rotate
 
-![PMOD_OV7670](pic/OV7670_Back.png)
-
-OV7670 rotate
-
-![PMOD_OV7670](pic/OV7670_Rotate.png)
+![PMOD_USB](pic/ENC28J60_Rotate.png)
 
 HDMI front
 
@@ -80,6 +76,18 @@ HDMI back
 HDMI rotate
 
 ![PMOD_HDMI](pic/HDMI_I_ROTATE.png)
+
+OV7670 front
+
+![PMOD_OV7670](pic/OV7670_Front.png)
+
+OV7670 back
+
+![PMOD_OV7670](pic/OV7670_Back.png)
+
+OV7670 rotate
+
+![PMOD_OV7670](pic/OV7670_Rotate.png)
 
 MLX90640 front
 

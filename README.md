@@ -1,5 +1,7 @@
 # PMOD boards for ULX3S
 
+<img src="pic/HexLogo-Purple.svg" width="200" height="200">
+
     [x] PMOD RFM9X
     [x] PMOD OV7670
     [x] PMOD HDMI Input/output

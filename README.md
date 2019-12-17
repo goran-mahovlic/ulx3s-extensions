@@ -135,6 +135,6 @@ MAX31855 rotate
 
 ![Founded by ShuttleworthFoudation](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 
-![Founded by OSH](pic/HexLogo-Purple.svg) 
+![Founded by OSH](pic/HexLogo-Purple.svg  | width=80) 
 
 Helping hands: Marvin(Radiona), Emard(Radiona), Prizma(Radiona), mmicko, Drew Fustini (OSH Park), SnapEDA

@@ -1,4 +1,4 @@
-16316790567340325
+16324672909222594
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -45268,6 +45268,13 @@ PADOVETE OT 1.6X0.28 STAVAT NA 1.6X0.25
 0
 23
 20
+HDMI_w
+HDMI-D
+PADOVETE OT 1.6X0.28 STAVAT NA 1.6X0.25
+PADOVETE OT 1.6X0.28 STAVAT NA 1.6X0.25
+0
+23
+20
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -72897,63 +72904,91 @@ varistor SIOV
 0
 2
 2
-parts
+parts2
+OSH_2_5x2_5
+
+
+0
+0
+0
+parts2
+OSH_5x5
+
+
+0
+0
+0
+parts2
+OSH_7x7
+
+
+0
+0
+0
+parts2
+OSH_10x10
+
+
+0
+0
+0
+parts2
 founded
 
 
 0
 0
 0
-parts
+parts2
 radiona
 
 
 0
 0
 0
-parts
+parts2
 radiona-10mm
 
 
 0
 0
 0
-parts
+parts2
 radiona-12mm
 
 
 0
 0
 0
-parts
+parts2
 radiona-16mm
 
 
 0
 0
 0
-parts
+parts2
 radiona-small
 
 
 0
 0
 0
-parts
+parts2
 shutleworth
 
 
 0
 0
 0
-parts
+parts2
 shutleworth-12mm
 
 
 0
 0
 0
-parts
+parts2
 shutleworth-small
 
 

@@ -2231,12 +2231,12 @@ Text Label 3450 4100 0    50   ~ 0
 D0-
 Text Label 3600 4200 0    50   ~ 0
 CLK+
-Text Label 3350 4400 0    50   ~ 0
-CLK-
 Text Label 3500 4600 0    50   ~ 0
 ETH+
 Text Label 3500 5100 0    50   ~ 0
 ETH-
 Text Label 3600 4500 0    50   ~ 0
 CEC
+Text Label 3450 4400 0    50   ~ 0
+CLK-
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:USB-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -3565,72 +3565,8 @@ Wire Wire Line
 	9000 3350 9150 3350
 Wire Wire Line
 	9050 3550 9150 3550
-Text GLabel 9750 4700 2    50   Input ~ 0
-+3V3
-$Comp
-L power:GND #PWR016
-U 1 1 5DFAC12F
-P 9750 4600
-F 0 "#PWR016" H 9750 4350 50  0001 C CNN
-F 1 "GND" V 9750 4400 50  0000 C CNN
-F 2 "" H 9750 4600 50  0001 C CNN
-F 3 "" H 9750 4600 50  0001 C CNN
-	1    9750 4600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 5DFAC5A9
-P 9050 4600
-F 0 "#PWR012" H 9050 4350 50  0001 C CNN
-F 1 "GND" V 9050 4400 50  0000 C CNN
-F 2 "" H 9050 4600 50  0001 C CNN
-F 3 "" H 9050 4600 50  0001 C CNN
-	1    9050 4600
-	0    1    1    0   
-$EndComp
-Text GLabel 9050 4700 0    50   Input ~ 0
-+3V3
-Text GLabel 9050 4200 0    50   Input ~ 0
-GN27
-Text GLabel 9050 4300 0    50   Input ~ 0
-GN26
-Text GLabel 9050 4400 0    50   Input ~ 0
-GN25
-Text GLabel 9050 4500 0    50   Input ~ 0
-GN24
-Text GLabel 9750 4200 2    50   Input ~ 0
-GP27
-Text GLabel 9750 4300 2    50   Input ~ 0
+Text GLabel 9350 5200 3    50   Input ~ 0
 GP26
-Text GLabel 9750 4400 2    50   Input ~ 0
-GP25
-Text GLabel 9750 4500 2    50   Input ~ 0
-GP24
-Wire Wire Line
-	9050 4200 9150 4200
-Wire Wire Line
-	9650 4200 9750 4200
-Wire Wire Line
-	9050 4300 9150 4300
-Wire Wire Line
-	9050 4400 9150 4400
-Wire Wire Line
-	9050 4500 9150 4500
-Wire Wire Line
-	9050 4600 9150 4600
-Wire Wire Line
-	9050 4700 9150 4700
-Wire Wire Line
-	9650 4300 9750 4300
-Wire Wire Line
-	9650 4400 9750 4400
-Wire Wire Line
-	9650 4500 9750 4500
-Wire Wire Line
-	9650 4600 9750 4600
-Wire Wire Line
-	9650 4700 9750 4700
 Text GLabel 9750 3250 2    60   Input ~ 0
 USB1_FPGA_D-
 Text GLabel 9050 3250 0    60   Input ~ 0
@@ -3647,17 +3583,6 @@ Text GLabel 9050 3050 0    60   Input ~ 0
 USB2_FPGA_PULL_D+
 Text GLabel 9750 3050 2    60   Input ~ 0
 USB2_FPGA_PULL_D-
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even J2
-U 1 1 5DFAA8B3
-P 9350 4500
-F 0 "J2" H 9400 4917 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 9400 4826 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 9350 4500 50  0001 C CNN
-F 3 "~" H 9350 4500 50  0001 C CNN
-	1    9350 4500
-	1    0    0    1   
-$EndComp
 $Comp
 L Connector:USB_A US4
 U 1 1 5DF9BA2D
@@ -3730,4 +3655,180 @@ Text GLabel 9750 2850 2    60   Input ~ 0
 USB1_FPGA_D-
 Text GLabel 9050 2850 0    60   Input ~ 0
 USB1_FPGA_D+
+$Comp
+L Interface_Optical:TSOP17xx U1
+U 1 1 5E048AE5
+P 9350 4650
+F 0 "U1" H 9338 5075 50  0000 C CNN
+F 1 "TSOP17xx" H 9338 4984 50  0000 C CNN
+F 2 "OptoDevice:Vishay_CAST-3Pin" H 9300 4275 50  0001 C CNN
+F 3 "http://www.micropik.com/PDF/tsop17xx.pdf" H 10000 4950 50  0001 C CNN
+	1    9350 4650
+	0    1    1    0   
+$EndComp
+Text GLabel 9550 5200 3    50   Input ~ 0
++3V3
+$Comp
+L power:GND #PWR02
+U 1 1 5E04A1C0
+P 9150 5200
+F 0 "#PWR02" H 9150 4950 50  0001 C CNN
+F 1 "GND" V 9150 5000 50  0000 C CNN
+F 2 "" H 9150 5200 50  0001 C CNN
+F 3 "" H 9150 5200 50  0001 C CNN
+	1    9150 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5050 9350 5200
+Wire Wire Line
+	9550 5050 9550 5200
+Wire Wire Line
+	9150 5050 9150 5200
+$Comp
+L Device:LED D15
+U 1 1 5E05440B
+P 10200 4800
+F 0 "D15" V 10239 4683 50  0000 R CNN
+F 1 "LED" V 10148 4683 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_IRBlack" H 10200 4800 50  0001 C CNN
+F 3 "~" H 10200 4800 50  0001 C CNN
+	1    10200 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D16
+U 1 1 5E05565F
+P 10200 5150
+F 0 "D16" V 10239 5033 50  0000 R CNN
+F 1 "LED" V 10148 5033 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_IRBlack" H 10200 5150 50  0001 C CNN
+F 3 "~" H 10200 5150 50  0001 C CNN
+	1    10200 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 5E05591A
+P 10200 5500
+F 0 "D17" V 10239 5383 50  0000 R CNN
+F 1 "LED" V 10148 5383 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_IRBlack" H 10200 5500 50  0001 C CNN
+F 3 "~" H 10200 5500 50  0001 C CNN
+	1    10200 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5E055BA4
+P 10200 4450
+AR Path="/5E055BA4" Ref="R13"  Part="1" 
+AR Path="/58D6BF46/5E055BA4" Ref="R?"  Part="1" 
+F 0 "R13" V 10150 4650 50  0000 C CNN
+F 1 "27" V 10200 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10130 4450 50  0001 C CNN
+F 3 "" H 10200 4450 50  0000 C CNN
+F 4 "www.yageo.com" V 10200 4450 50  0001 C CNN "MNF1_URL"
+F 5 "AC0603JR-0727RL" V 10200 4450 50  0001 C CNN "MPN"
+	1    10200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q1
+U 1 1 5E0572AC
+P 10100 5900
+F 0 "Q1" H 10306 5946 50  0000 L CNN
+F 1 "2N7002" H 10306 5855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 5825 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 10100 5900 50  0001 L CNN
+	1    10100 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5E059E1E
+P 10200 6150
+F 0 "#PWR012" H 10200 5900 50  0001 C CNN
+F 1 "GND" V 10200 5950 50  0000 C CNN
+F 2 "" H 10200 6150 50  0001 C CNN
+F 3 "" H 10200 6150 50  0001 C CNN
+	1    10200 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5E05A4D5
+P 10200 4150
+F 0 "#PWR06" H 10200 4000 50  0001 C CNN
+F 1 "+5V" V 10200 4350 50  0000 C CNN
+F 2 "" H 10200 4150 60  0000 C CNN
+F 3 "" H 10200 4150 60  0000 C CNN
+	1    10200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4150 10200 4300
+Wire Wire Line
+	10200 4600 10200 4650
+Wire Wire Line
+	10200 4950 10200 5000
+Wire Wire Line
+	10200 5300 10200 5350
+Wire Wire Line
+	10200 5650 10200 5700
+Wire Wire Line
+	10200 6100 10200 6150
+Text GLabel 9800 5900 0    50   Input ~ 0
+GN26
+Wire Wire Line
+	9800 5900 9900 5900
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5E07EEC9
+P 9200 6000
+F 0 "J2" H 9280 6042 50  0000 L CNN
+F 1 "CONN" H 9280 5951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9200 6000 50  0001 C CNN
+F 3 "~" H 9200 6000 50  0001 C CNN
+	1    9200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR016
+U 1 1 5E07F755
+P 8900 5800
+F 0 "#PWR016" H 8900 5650 50  0001 C CNN
+F 1 "+5V" V 8900 6000 50  0000 C CNN
+F 2 "" H 8900 5800 60  0000 C CNN
+F 3 "" H 8900 5800 60  0000 C CNN
+	1    8900 5800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8900 6100 0    50   Input ~ 0
+GP27
+Text GLabel 8900 6000 0    50   Input ~ 0
+GN27
+Text GLabel 8900 5900 0    50   Input ~ 0
++3V3
+$Comp
+L power:GND #PWR017
+U 1 1 5E07FF1E
+P 8900 6200
+F 0 "#PWR017" H 8900 5950 50  0001 C CNN
+F 1 "GND" V 8900 6000 50  0000 C CNN
+F 2 "" H 8900 6200 50  0001 C CNN
+F 3 "" H 8900 6200 50  0001 C CNN
+	1    8900 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 5800 9000 5800
+Wire Wire Line
+	8900 5900 9000 5900
+Wire Wire Line
+	8900 6000 9000 6000
+Wire Wire Line
+	8900 6100 9000 6100
+Wire Wire Line
+	8900 6200 9000 6200
 $EndSCHEMATC

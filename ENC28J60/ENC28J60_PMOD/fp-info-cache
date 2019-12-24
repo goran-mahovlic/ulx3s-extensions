@@ -1,4 +1,4 @@
-16321520932710610
+16334130902376916
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72890,6 +72890,20 @@ varistor SIOV
 0
 2
 2
+jumper
+D_SMA_Jumper_NC
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+jumper
+R_0805_2012Metric_Pad1.29x1.40mm_HandSolder_Jumper_NC
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
 parts
 OSH_2_5x2_5
 
@@ -72981,3 +72995,45 @@ shutleworth-small
 0
 0
 0
+usb_otg
+USB-MICRO-B-FCI-10118192-0001LF
+
+
+0
+11
+6
+usb_otg
+USB-MICRO-B-FCI-10118192-0001LF-small-pads
+
+
+0
+11
+6
+usb_otg
+USB-MICRO-B-FCI-10118193-0001LF
+
+
+0
+9
+6
+usb_otg
+USB-MICRO-B-FCI-10118194-0001LF
+
+
+0
+9
+6
+usb_otg
+USB-MICRO-B-MOLEX-47346-0001
+
+
+0
+11
+6
+usb_otg
+USB_Micro-B
+Micro USB Type B Receptacle
+USB USB_B USB_micro USB_OTG
+0
+9
+6

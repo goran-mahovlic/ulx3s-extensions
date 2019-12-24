@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SPH0645LM4H-B)(type Legacy)(uri C:/share/projekti/ulx3s-PMOD/parts/SPH0645LM4H/SPH0645LM4H-B.mod)(options "")(descr ""))
+  (lib (name parts)(type KiCad)(uri C:/share/projekti/ulx3s-PMOD/parts)(options "")(descr ""))
+)

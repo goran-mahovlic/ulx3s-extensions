@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name I2C_MIC-rescue)(type Legacy)(uri ${KIPRJMOD}/I2C_MIC-rescue.lib)(options "")(descr ""))
+  (lib (name sph0641lu4h)(type Legacy)(uri C:/share/projekti/ulx3s-PMOD/parts/SPH0641LU4H/sph0641lu4h.lib)(options "")(descr ""))
+)

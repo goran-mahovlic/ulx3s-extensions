@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.1+dfsg1-3~bpo9+1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2+dfsg1-1)
 
   (general
     (thickness 1.6)
-    (drawings 51)
+    (drawings 53)
     (tracks 361)
     (zones 0)
     (modules 10)
@@ -2982,6 +2982,12 @@
       (net 1 3V3))
   )
 
+  (gr_text TOP (at 152.6 82.2) (layer F.SilkS) (tstamp 5E0E8C2D)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text TOP (at 152.4 69) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 140 63) (end 140 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 152 63) (end 140 63) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 152 62) (end 152 63) (layer Edge.Cuts) (width 0.15))

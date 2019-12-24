@@ -3557,10 +3557,6 @@ Wire Wire Line
 	9050 2550 9150 2550
 Text GLabel 9750 2750 2    50   Input ~ 0
 GN26
-Text GLabel 9750 2850 2    50   Input ~ 0
-GN25
-Text GLabel 9750 2950 2    50   Input ~ 0
-GN24
 Text GLabel 9750 3450 2    50   Input ~ 0
 +3V3
 Text GLabel 9750 2650 2    50   Input ~ 0
@@ -3578,10 +3574,6 @@ F 3 "" H 9000 3350 50  0001 C CNN
 $EndComp
 Text GLabel 9050 2750 0    50   Input ~ 0
 GP26
-Text GLabel 9050 2850 0    50   Input ~ 0
-GP25
-Text GLabel 9050 2950 0    50   Input ~ 0
-GP24
 Text GLabel 9050 3450 0    50   Input ~ 0
 +3V3
 Text GLabel 9050 2650 0    50   Input ~ 0
@@ -3667,18 +3659,10 @@ Text GLabel 9050 4200 0    50   Input ~ 0
 GN27
 Text GLabel 9050 4300 0    50   Input ~ 0
 GN26
-Text GLabel 9050 4400 0    50   Input ~ 0
-GN25
-Text GLabel 9050 4500 0    50   Input ~ 0
-GN24
 Text GLabel 9750 4200 2    50   Input ~ 0
 GP27
 Text GLabel 9750 4300 2    50   Input ~ 0
 GP26
-Text GLabel 9750 4400 2    50   Input ~ 0
-GP25
-Text GLabel 9750 4500 2    50   Input ~ 0
-GP24
 Wire Wire Line
 	9050 4200 9150 4200
 Wire Wire Line
@@ -3686,19 +3670,11 @@ Wire Wire Line
 Wire Wire Line
 	9050 4300 9150 4300
 Wire Wire Line
-	9050 4400 9150 4400
-Wire Wire Line
-	9050 4500 9150 4500
-Wire Wire Line
 	9050 4600 9150 4600
 Wire Wire Line
 	9050 4700 9150 4700
 Wire Wire Line
 	9650 4300 9750 4300
-Wire Wire Line
-	9650 4400 9750 4400
-Wire Wire Line
-	9650 4500 9750 4500
 Wire Wire Line
 	9650 4600 9750 4600
 Wire Wire Line
@@ -3778,4 +3754,12 @@ F 3 "~" H 9350 4500 50  0001 C CNN
 	1    9350 4500
 	1    0    0    1   
 $EndComp
+Text GLabel 9050 2950 0    60   Input ~ 0
+USB2_FPGA_D+
+Text GLabel 9050 2850 0    60   Input ~ 0
+USB1_FPGA_D+
+Text GLabel 9750 2950 2    60   Input ~ 0
+USB2_FPGA_D-
+Text GLabel 9750 2850 2    60   Input ~ 0
+USB1_FPGA_D-
 $EndSCHEMATC

@@ -2,6 +2,6 @@ multi:
     HDMI:
         summary: HDMI in/out PMOD for ULX3S
         color: purple
-        site: https://github.com/goran-mahovlic/ulx3s-PMOD/HDMI
+        site: https://github.com/goran-mahovlic/ulx3s-PMOD
         gerbers: HDMI/Gerber
         bom: HDMI/BOM/1-click-bom.csv

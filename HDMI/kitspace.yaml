@@ -1,0 +1,5 @@
+summary: HDMI in/out PMOD for ULX3S
+site: https://github.com/goran-mahovlic/ulx3s-PMOD
+color: black
+bom: BOM
+gerbers: Gerber

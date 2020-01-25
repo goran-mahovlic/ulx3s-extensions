@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name HDMI)(type KiCad)(uri ${KIPRJMOD}/hdmi-d/hdmi-d.pretty)(options "")(descr ""))
   (lib (name parts2)(type KiCad)(uri ${KIPRJMOD}/../parts)(options "")(descr ""))
+  (lib (name RN5RK)(type KiCad)(uri ${KIPRJMOD}/FPGA/ulx3s-PMOD/parts/RN5RK)(options "")(descr ""))
 )

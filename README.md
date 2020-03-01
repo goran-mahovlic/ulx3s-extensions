@@ -12,13 +12,14 @@
     [x] PMOD MAX31855
     [x] PMOD ENC28J60
     [o] PMOD I2S Audio
-    [ ] PMOD CAN bus
-    [ ] PMOD VGA
+    [ ] PMOD MIDI in/out
+    [ ] PMOD LCD - DS90CF363B    
+    [ ] PMOD CH376
     [ ] PMOD Poteciometers
     [ ] PMOD Rotary encoder
+    [ ] PMOD VGA
+    [ ] PMOD CAN bus
     [ ] PMOD LVDS
-    [ ] PMOD LCD
-    [ ] PMOD ethernet
     [ ] PMOD SX1257 - Already in development
     [ ] PMOD RaspiCam - https://github.com/daveshah1/pmods
     [ ] PMOD DC Motor with encoder

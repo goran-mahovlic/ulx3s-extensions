@@ -2301,39 +2301,6 @@ CLK+
 Text Label 3500 2500 1    50   ~ 0
 CLK-
 $Comp
-L power:+3V3 #PWR0101
-U 1 1 5E2F53F1
-P 2100 1500
-F 0 "#PWR0101" H 2100 1350 50  0001 C CNN
-F 1 "+3V3" V 2115 1628 50  0000 L CNN
-F 2 "" H 2100 1500 50  0001 C CNN
-F 3 "" H 2100 1500 50  0001 C CNN
-	1    2100 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0102
-U 1 1 5E2F54F1
-P 2300 1500
-F 0 "#PWR0102" H 2300 1350 50  0001 C CNN
-F 1 "+3V3" V 2315 1628 50  0000 L CNN
-F 2 "" H 2300 1500 50  0001 C CNN
-F 3 "" H 2300 1500 50  0001 C CNN
-	1    2300 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0103
-U 1 1 5E2F5542
-P 2500 1500
-F 0 "#PWR0103" H 2500 1350 50  0001 C CNN
-F 1 "+3V3" V 2515 1628 50  0000 L CNN
-F 2 "" H 2500 1500 50  0001 C CNN
-F 3 "" H 2500 1500 50  0001 C CNN
-	1    2500 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR0104
 U 1 1 5E2F5593
 P 2700 1500
@@ -2342,50 +2309,6 @@ F 1 "+3V3" V 2715 1628 50  0000 L CNN
 F 2 "" H 2700 1500 50  0001 C CNN
 F 3 "" H 2700 1500 50  0001 C CNN
 	1    2700 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0110
-U 1 1 5E2F55E4
-P 2900 1500
-F 0 "#PWR0110" H 2900 1350 50  0001 C CNN
-F 1 "+3V3" V 2915 1628 50  0000 L CNN
-F 2 "" H 2900 1500 50  0001 C CNN
-F 3 "" H 2900 1500 50  0001 C CNN
-	1    2900 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0111
-U 1 1 5E2F5635
-P 3100 1500
-F 0 "#PWR0111" H 3100 1350 50  0001 C CNN
-F 1 "+3V3" V 3115 1628 50  0000 L CNN
-F 2 "" H 3100 1500 50  0001 C CNN
-F 3 "" H 3100 1500 50  0001 C CNN
-	1    3100 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0112
-U 1 1 5E2F5686
-P 3300 1500
-F 0 "#PWR0112" H 3300 1350 50  0001 C CNN
-F 1 "+3V3" V 3315 1628 50  0000 L CNN
-F 2 "" H 3300 1500 50  0001 C CNN
-F 3 "" H 3300 1500 50  0001 C CNN
-	1    3300 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0113
-U 1 1 5E2F56D7
-P 3500 1500
-F 0 "#PWR0113" H 3500 1350 50  0001 C CNN
-F 1 "+3V3" V 3515 1628 50  0000 L CNN
-F 2 "" H 3500 1500 50  0001 C CNN
-F 3 "" H 3500 1500 50  0001 C CNN
-	1    3500 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2648,130 +2571,10 @@ Connection ~ 7550 4500
 Wire Wire Line
 	7550 4500 7550 4600
 $Comp
-L Jumper:SolderJumper_2_Bridged JP8
-U 1 1 5E89544F
-P 3500 1700
-F 0 "JP8" H 3450 1600 50  0000 L CNN
-F 1 "JUMP" H 3400 1800 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3500 1700 50  0001 C CNN
-F 3 "~" H 3500 1700 50  0001 C CNN
-	1    3500 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP7
-U 1 1 5E89BC74
-P 3300 1700
-F 0 "JP7" H 3250 1600 50  0000 L CNN
-F 1 "JUMP" H 3200 1800 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3300 1700 50  0001 C CNN
-F 3 "~" H 3300 1700 50  0001 C CNN
-	1    3300 1700
-	0    1    1    0   
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Bridged JP6
-U 1 1 5E89BCE6
-P 3100 1700
-F 0 "JP6" H 3050 1600 50  0000 L CNN
-F 1 "JUMP" H 3000 1800 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3100 1700 50  0001 C CNN
-F 3 "~" H 3100 1700 50  0001 C CNN
-	1    3100 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP5
-U 1 1 5E89BD58
-P 2900 1700
-F 0 "JP5" H 2850 1600 50  0000 L CNN
-F 1 "JUMP" H 2800 1800 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2900 1700 50  0001 C CNN
-F 3 "~" H 2900 1700 50  0001 C CNN
-	1    2900 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP4
-U 1 1 5E89BDCA
-P 2700 1700
-F 0 "JP4" H 2650 1600 50  0000 L CNN
-F 1 "JUMP" H 2600 1800 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2700 1700 50  0001 C CNN
-F 3 "~" H 2700 1700 50  0001 C CNN
-	1    2700 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP3
-U 1 1 5E89BE3E
-P 2500 1700
-F 0 "JP3" H 2450 1600 50  0000 L CNN
-F 1 "JUMP" H 2400 1800 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2500 1700 50  0001 C CNN
-F 3 "~" H 2500 1700 50  0001 C CNN
-	1    2500 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP2
-U 1 1 5E89BEB4
-P 2300 1700
-F 0 "JP2" H 2250 1600 50  0000 L CNN
-F 1 "JUMP" H 2200 1800 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2300 1700 50  0001 C CNN
-F 3 "~" H 2300 1700 50  0001 C CNN
-	1    2300 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 5E89BF30
-P 2100 1700
-F 0 "JP1" H 2050 1600 50  0000 L CNN
-F 1 "JUMP" H 2000 1800 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2100 1700 50  0001 C CNN
-F 3 "~" H 2100 1700 50  0001 C CNN
-	1    2100 1700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3500 1500 3500 1550
-Wire Wire Line
-	3300 1500 3300 1550
-Wire Wire Line
-	3100 1500 3100 1550
-Wire Wire Line
-	2900 1500 2900 1550
-Wire Wire Line
-	2700 1500 2700 1550
-Wire Wire Line
-	2500 1500 2500 1550
-Wire Wire Line
-	2300 1500 2300 1550
-Wire Wire Line
-	2100 1500 2100 1550
-Wire Wire Line
-	2100 1850 2100 2000
-Wire Wire Line
-	2300 1850 2300 2000
-Wire Wire Line
-	2500 1850 2500 2000
-Wire Wire Line
-	2700 1850 2700 2000
-Wire Wire Line
-	2900 1850 2900 2000
-Wire Wire Line
-	3100 1850 3100 2000
-Wire Wire Line
-	3300 1850 3300 2000
-Wire Wire Line
-	3500 1850 3500 2000
-$Comp
-L Jumper:SolderJumper_2_Bridged JP9
 U 1 1 5E907DB9
 P 7550 4150
-F 0 "JP9" H 7500 4050 50  0000 L CNN
+F 0 "JP6" H 7500 4050 50  0000 L CNN
 F 1 "JUMP" H 7450 4250 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7550 4150 50  0001 C CNN
 F 3 "~" H 7550 4150 50  0001 C CNN
@@ -2859,10 +2662,10 @@ Wire Wire Line
 Wire Wire Line
 	1550 4900 1550 4950
 $Comp
-L Jumper:SolderJumper_2_Bridged JP10
+L Jumper:SolderJumper_2_Bridged JP2
 U 1 1 5E95DDB9
 P 4150 2100
-F 0 "JP10" H 4100 2000 50  0000 L CNN
+F 0 "JP2" H 4100 2000 50  0000 L CNN
 F 1 "JUMP" H 4050 2200 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4150 2100 50  0001 C CNN
 F 3 "~" H 4150 2100 50  0001 C CNN
@@ -2916,10 +2719,10 @@ F 3 "~" H 5350 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP11
+L Jumper:SolderJumper_2_Bridged JP3
 U 1 1 5E990D32
 P 4600 2100
-F 0 "JP11" H 4550 2000 50  0000 L CNN
+F 0 "JP3" H 4550 2000 50  0000 L CNN
 F 1 "JUMP" H 4500 2200 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4600 2100 50  0001 C CNN
 F 3 "~" H 4600 2100 50  0001 C CNN
@@ -2927,10 +2730,10 @@ F 3 "~" H 4600 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP12
+L Jumper:SolderJumper_2_Bridged JP4
 U 1 1 5E990DC8
 P 5100 2100
-F 0 "JP12" H 5050 2000 50  0000 L CNN
+F 0 "JP4" H 5050 2000 50  0000 L CNN
 F 1 "JUMP" H 5000 2200 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5100 2100 50  0001 C CNN
 F 3 "~" H 5100 2100 50  0001 C CNN
@@ -2938,10 +2741,10 @@ F 3 "~" H 5100 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP13
+L Jumper:SolderJumper_2_Bridged JP5
 U 1 1 5E990E5E
 P 5550 2050
-F 0 "JP13" H 5500 1950 50  0000 L CNN
+F 0 "JP5" H 5500 1950 50  0000 L CNN
 F 1 "JUMP" H 5450 2150 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5550 2050 50  0001 C CNN
 F 3 "~" H 5550 2050 50  0001 C CNN
@@ -3018,4 +2821,55 @@ Wire Notes Line
 	550  6000 1850 6000
 Wire Notes Line
 	550  3550 1850 3550
+$Comp
+L Jumper:SolderJumper_2_Bridged JP1
+U 1 1 5E89BF30
+P 2700 1700
+F 0 "JP1" H 2650 1600 50  0000 L CNN
+F 1 "JUMP" H 2600 1800 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2700 1700 50  0001 C CNN
+F 3 "~" H 2700 1700 50  0001 C CNN
+	1    2700 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 1500 2700 1550
+Wire Wire Line
+	2100 2000 2100 1950
+Wire Wire Line
+	2100 1950 2300 1950
+Wire Wire Line
+	3500 1950 3500 2000
+Wire Wire Line
+	2700 1850 2700 1950
+Connection ~ 2700 1950
+Wire Wire Line
+	2700 1950 2900 1950
+Wire Wire Line
+	2700 1950 2700 2000
+Wire Wire Line
+	2500 2000 2500 1950
+Connection ~ 2500 1950
+Wire Wire Line
+	2500 1950 2700 1950
+Wire Wire Line
+	2300 2000 2300 1950
+Connection ~ 2300 1950
+Wire Wire Line
+	2300 1950 2500 1950
+Wire Wire Line
+	2900 2000 2900 1950
+Connection ~ 2900 1950
+Wire Wire Line
+	2900 1950 3100 1950
+Wire Wire Line
+	3100 2000 3100 1950
+Connection ~ 3100 1950
+Wire Wire Line
+	3100 1950 3300 1950
+Wire Wire Line
+	3300 2000 3300 1950
+Connection ~ 3300 1950
+Wire Wire Line
+	3300 1950 3500 1950
 $EndSCHEMATC

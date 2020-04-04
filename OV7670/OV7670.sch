@@ -20,46 +20,46 @@ U 1 1 5BFC6F5D
 P 5700 4250
 F 0 "J1" H 5750 4867 50  0000 C CNN
 F 1 "OV7670" H 5750 4776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Horizontal" H 5700 4250 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical" H 5700 4250 50  0001 C CNN
 F 3 "~" H 5700 4250 50  0001 C CNN
 	1    5700 4250
 	1    0    0    -1  
 $EndComp
-Text GLabel 5400 3850 0    50   Input ~ 0
-3V3
-Text GLabel 5400 3950 0    50   Input ~ 0
-SIOC
-Text GLabel 5400 4150 0    50   Input ~ 0
-PCLK
-Text GLabel 5400 4250 0    50   Input ~ 0
-D7
-Text GLabel 5400 4350 0    50   Input ~ 0
-D5
-Text GLabel 5400 4450 0    50   Input ~ 0
-D3
-Text GLabel 5400 4550 0    50   Input ~ 0
-D1
-Text GLabel 5400 4650 0    50   Input ~ 0
-RESET
-Text GLabel 5400 4050 0    50   Input ~ 0
-VSYNC
 Text GLabel 6100 3850 2    50   Input ~ 0
-GND
+3V3
 Text GLabel 6100 3950 2    50   Input ~ 0
-SIOD
-Text GLabel 6100 4050 2    50   Input ~ 0
-HREF
+SIOC
 Text GLabel 6100 4150 2    50   Input ~ 0
-XCLK
+PCLK
 Text GLabel 6100 4250 2    50   Input ~ 0
-D6
+D7
 Text GLabel 6100 4350 2    50   Input ~ 0
-D4
+D5
 Text GLabel 6100 4450 2    50   Input ~ 0
-D2
+D3
 Text GLabel 6100 4550 2    50   Input ~ 0
-D0
+D1
 Text GLabel 6100 4650 2    50   Input ~ 0
+RESET
+Text GLabel 6100 4050 2    50   Input ~ 0
+VSYNC
+Text GLabel 5400 3850 0    50   Input ~ 0
+GND
+Text GLabel 5400 3950 0    50   Input ~ 0
+SIOD
+Text GLabel 5400 4050 0    50   Input ~ 0
+HREF
+Text GLabel 5400 4150 0    50   Input ~ 0
+XCLK
+Text GLabel 5400 4250 0    50   Input ~ 0
+D6
+Text GLabel 5400 4350 0    50   Input ~ 0
+D4
+Text GLabel 5400 4450 0    50   Input ~ 0
+D2
+Text GLabel 5400 4550 0    50   Input ~ 0
+D0
+Text GLabel 5400 4650 0    50   Input ~ 0
 PWDN
 Wire Wire Line
 	5400 3850 5500 3850

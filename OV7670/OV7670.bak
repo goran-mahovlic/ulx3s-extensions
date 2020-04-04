@@ -20,7 +20,7 @@ U 1 1 5BFC6F5D
 P 5700 4250
 F 0 "J1" H 5750 4867 50  0000 C CNN
 F 1 "OV7670" H 5750 4776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Horizontal" H 5700 4250 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical" H 5700 4250 50  0001 C CNN
 F 3 "~" H 5700 4250 50  0001 C CNN
 	1    5700 4250
 	1    0    0    -1  
@@ -279,7 +279,7 @@ U 1 1 5BFF0749
 P 8800 4100
 F 0 "J7" H 8879 4092 50  0000 L CNN
 F 1 "EXTVCC" H 8879 4001 50  0000 L CNN
-F 2 "" H 8800 4100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8800 4100 50  0001 C CNN
 F 3 "~" H 8800 4100 50  0001 C CNN
 	1    8800 4100
 	1    0    0    -1  

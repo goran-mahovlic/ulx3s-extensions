@@ -2571,10 +2571,10 @@ Connection ~ 7550 4500
 Wire Wire Line
 	7550 4500 7550 4600
 $Comp
-L Jumper:SolderJumper_2_Bridged JP9
+L Jumper:SolderJumper_2_Bridged JP6
 U 1 1 5E907DB9
 P 7550 4150
-F 0 "JP9" H 7500 4050 50  0000 L CNN
+F 0 "JP6" H 7500 4050 50  0000 L CNN
 F 1 "JUMP" H 7450 4250 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7550 4150 50  0001 C CNN
 F 3 "~" H 7550 4150 50  0001 C CNN
@@ -2672,8 +2672,6 @@ F 3 "~" H 4150 2100 50  0001 C CNN
 	1    4150 2100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5350 2300 5350 2400
 $Comp
 L power:GND #PWR0115
 U 1 1 5E328D91
@@ -2872,4 +2870,6 @@ Wire Wire Line
 Connection ~ 3300 1950
 Wire Wire Line
 	3300 1950 3500 1950
+Wire Wire Line
+	5350 2300 5350 2400
 $EndSCHEMATC

@@ -2672,8 +2672,6 @@ F 3 "~" H 4150 2100 50  0001 C CNN
 	1    4150 2100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5350 2300 5350 2400
 $Comp
 L power:GND #PWR0115
 U 1 1 5E328D91
@@ -2872,4 +2870,6 @@ Wire Wire Line
 Connection ~ 3300 1950
 Wire Wire Line
 	3300 1950 3500 1950
+Wire Wire Line
+	5350 2300 5350 2400
 $EndSCHEMATC

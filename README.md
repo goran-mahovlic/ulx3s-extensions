@@ -15,7 +15,7 @@
     [ ] PMOD MIDI in/out
     [ ] PMOD LCD - DS90CF363B    
     [ ] PMOD CH376
-    [ ] PMOD Poteciometers
+    [o] PMOD Poteciometers
     [ ] PMOD Rotary encoder
     [ ] PMOD VGA
     [ ] PMOD CAN bus
@@ -79,6 +79,18 @@ HDMI back
 HDMI rotate
 
 ![PMOD_HDMI](pic/HDMI_I_ROTATE.png)
+
+Potenciometar front
+
+![PMOD_POT](pic/pot_Front.png)
+
+Potenciometar back
+
+![PMOD_POT](pic/pot_Back.png)
+
+Potenciometar rotate
+
+![PMOD_POT](pic/pot_Rotate.png)
 
 OV7670 front
 

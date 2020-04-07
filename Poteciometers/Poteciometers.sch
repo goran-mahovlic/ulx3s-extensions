@@ -1999,172 +1999,18 @@ F 3 "" H 5100 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 1900 5100 1800
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 5E8A5DA7
-P 1450 2250
-F 0 "JP1" H 1450 2455 50  0000 C CNN
-F 1 "GP14" H 1450 2364 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 2250 50  0001 C CNN
-F 3 "~" H 1450 2250 50  0001 C CNN
-	1    1450 2250
-	1    0    0    -1  
-$EndComp
-Text GLabel 1800 2700 2    50   Input ~ 0
+Text GLabel 3650 2700 2    50   Input ~ 0
 POT1
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 5E8A617E
-P 1450 2550
-F 0 "JP2" H 1450 2755 50  0000 C CNN
-F 1 "GP15" H 1450 2664 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 2550 50  0001 C CNN
-F 3 "~" H 1450 2550 50  0001 C CNN
-	1    1450 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP3
-U 1 1 5E8A61A8
-P 1450 2850
-F 0 "JP3" H 1450 3055 50  0000 C CNN
-F 1 "GP16" H 1450 2964 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 2850 50  0001 C CNN
-F 3 "~" H 1450 2850 50  0001 C CNN
-	1    1450 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 5E8A61D0
-P 1450 3200
-F 0 "JP4" H 1450 3405 50  0000 C CNN
-F 1 "GP17" H 1450 3314 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 3200 50  0001 C CNN
-F 3 "~" H 1450 3200 50  0001 C CNN
-	1    1450 3200
-	1    0    0    -1  
-$EndComp
-Text GLabel 1200 2250 0    50   Input ~ 0
+Text GLabel 3550 2700 0    50   Input ~ 0
 GP14
-Text GLabel 1200 2550 0    50   Input ~ 0
-GP15
-Text GLabel 1200 2850 0    50   Input ~ 0
-GP16
-Text GLabel 1200 3200 0    50   Input ~ 0
-GP17
 Wire Wire Line
-	1200 2250 1300 2250
-Wire Wire Line
-	1200 2550 1300 2550
-Wire Wire Line
-	1200 2850 1300 2850
-Wire Wire Line
-	1200 3200 1300 3200
-Wire Wire Line
-	1600 2250 1700 2250
-Wire Wire Line
-	1700 2250 1700 2550
-Wire Wire Line
-	1700 3200 1600 3200
-Wire Wire Line
-	1600 2850 1700 2850
-Connection ~ 1700 2850
-Wire Wire Line
-	1700 2850 1700 3200
-Wire Wire Line
-	1600 2550 1700 2550
-Connection ~ 1700 2550
-Wire Wire Line
-	1700 2550 1700 2700
-Wire Wire Line
-	1800 2700 1700 2700
-Connection ~ 1700 2700
-Wire Wire Line
-	1700 2700 1700 2850
-$Comp
-L Jumper:SolderJumper_2_Open JP5
-U 1 1 5E8A8F58
-P 2700 2250
-F 0 "JP5" H 2700 2455 50  0000 C CNN
-F 1 "GN14" H 2700 2364 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2700 2250 50  0001 C CNN
-F 3 "~" H 2700 2250 50  0001 C CNN
-	1    2700 2250
-	1    0    0    -1  
-$EndComp
-Text GLabel 3050 2700 2    50   Input ~ 0
+	3650 2700 3550 2700
+Text GLabel 3650 2850 2    50   Input ~ 0
 POT2
-$Comp
-L Jumper:SolderJumper_2_Open JP6
-U 1 1 5E8A8F5F
-P 2700 2550
-F 0 "JP6" H 2700 2755 50  0000 C CNN
-F 1 "GN15" H 2700 2664 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2700 2550 50  0001 C CNN
-F 3 "~" H 2700 2550 50  0001 C CNN
-	1    2700 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP7
-U 1 1 5E8A8F65
-P 2700 2850
-F 0 "JP7" H 2700 3055 50  0000 C CNN
-F 1 "GN16" H 2700 2964 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2700 2850 50  0001 C CNN
-F 3 "~" H 2700 2850 50  0001 C CNN
-	1    2700 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP8
-U 1 1 5E8A8F6B
-P 2700 3200
-F 0 "JP8" H 2700 3405 50  0000 C CNN
-F 1 "GN17" H 2700 3314 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2700 3200 50  0001 C CNN
-F 3 "~" H 2700 3200 50  0001 C CNN
-	1    2700 3200
-	1    0    0    -1  
-$EndComp
-Text GLabel 2450 2250 0    50   Input ~ 0
+Text GLabel 3550 2850 0    50   Input ~ 0
 GN14
-Text GLabel 2450 2550 0    50   Input ~ 0
-GN15
-Text GLabel 2450 2850 0    50   Input ~ 0
-GN16
-Text GLabel 2450 3200 0    50   Input ~ 0
-GN17
 Wire Wire Line
-	2450 2250 2550 2250
-Wire Wire Line
-	2450 2550 2550 2550
-Wire Wire Line
-	2450 2850 2550 2850
-Wire Wire Line
-	2450 3200 2550 3200
-Wire Wire Line
-	2850 2250 2950 2250
-Wire Wire Line
-	2950 2250 2950 2550
-Wire Wire Line
-	2950 3200 2850 3200
-Wire Wire Line
-	2850 2850 2950 2850
-Connection ~ 2950 2850
-Wire Wire Line
-	2950 2850 2950 3200
-Wire Wire Line
-	2850 2550 2950 2550
-Connection ~ 2950 2550
-Wire Wire Line
-	2950 2550 2950 2700
-Wire Wire Line
-	3050 2700 2950 2700
-Connection ~ 2950 2700
-Wire Wire Line
-	2950 2700 2950 2850
+	3650 2850 3550 2850
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J2
 U 1 1 5E89FAED
@@ -2202,21 +2048,21 @@ F 3 "" H 5200 2950 50  0001 C CNN
 	1    5200 2950
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4500 2850 0    50   Input ~ 0
-GP14
-Text GLabel 5200 2850 2    50   Input ~ 0
-GN14
-Text GLabel 4500 2750 0    50   Input ~ 0
-GP15
-Text GLabel 5200 2750 2    50   Input ~ 0
-GN15
-Text GLabel 4500 2650 0    50   Input ~ 0
-GP16
-Text GLabel 5200 2650 2    50   Input ~ 0
-GN16
 Text GLabel 4500 2550 0    50   Input ~ 0
-GP17
+GP14
 Text GLabel 5200 2550 2    50   Input ~ 0
+GN14
+Text GLabel 4500 2850 0    50   Input ~ 0
+GP15
+Text GLabel 5200 2850 2    50   Input ~ 0
+GN15
+Text GLabel 4500 2750 0    50   Input ~ 0
+GP16
+Text GLabel 5200 2750 2    50   Input ~ 0
+GN16
+Text GLabel 4500 2650 0    50   Input ~ 0
+GP17
+Text GLabel 5200 2650 2    50   Input ~ 0
 GN17
 Wire Wire Line
 	5200 2550 5100 2550

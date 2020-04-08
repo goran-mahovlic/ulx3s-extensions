@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name CUI_SDS-50J)(type KiCad)(uri ${KIPRJMOD}/../parts/CUI_SDS-50J)(options "")(descr ""))
+  (lib (name MIDI)(type KiCad)(uri ${KIPRJMOD}/../parts)(options "")(descr ""))
+)

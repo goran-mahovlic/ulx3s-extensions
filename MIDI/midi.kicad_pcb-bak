@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 21)
+    (drawings 22)
     (tracks 262)
     (zones 0)
     (modules 16)
@@ -2259,6 +2259,9 @@
       (xy -4.18592 -1.25984) (xy -4.151381 -1.25984) (xy -4.130649 -1.261396)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text V_1.0 (at 98.57 101.87) (layer B.SilkS) (tstamp 5EA512C8)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_text +-2 (at 42.49 101.65) (layer B.SilkS) (tstamp 5E996423)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )

@@ -92,6 +92,10 @@ Potenciometar rotate
 
 ![PMOD_POT](pic/pot_Rotate.png)
 
+MIDI rotate
+
+![PMOD_MIDI](pic/MIDI_Rotate.png)
+
 OV7670 front
 
 ![PMOD_OV7670](pic/OV7670_Front.png)

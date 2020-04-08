@@ -156,4 +156,4 @@ MAX31855 rotate
 
 <img src="pic/HexLogo-Purple.svg" width="300" height="300"> 
 
-Helping hands: Marvin(Radiona), Emard(Radiona), Prizma(Radiona), mmicko, Drew Fustini (OSH Park), SnapEDA
+Helping hands: Marvin(Radiona), Emard(Radiona), Prizma(Radiona), mmicko, Drew Fustini (OSH Park), SnapEDA, smunaut(tnt)

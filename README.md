@@ -12,17 +12,17 @@
     [x] PMOD MAX31855
     [x] PMOD ENC28J60
     [o] PMOD I2S Audio
-    [ ] PMOD MIDI in/out
+    [o] PMOD MIDI in/out
+    [o] PMOD Poteciometers
+    [ ] PMOD VGA
+    [ ] PMOD Rotary encoder
+    [ ] PMOD DC Motor with encoder
     [ ] PMOD LCD - DS90CF363B    
     [ ] PMOD CH376
-    [o] PMOD Poteciometers
-    [ ] PMOD Rotary encoder
-    [ ] PMOD VGA
     [ ] PMOD CAN bus
     [ ] PMOD LVDS
-    [ ] PMOD SX1257 - Already in development
-    [ ] PMOD RaspiCam - https://github.com/daveshah1/pmods
-    [ ] PMOD DC Motor with encoder
+    [x] PMOD SX1257 - Already in development
+    [x] PMOD RaspiCam - https://github.com/daveshah1/pmods
  
 LoRa front
 

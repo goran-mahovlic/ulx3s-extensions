@@ -14,7 +14,7 @@
     [o] PMOD I2S Audio
     [o] PMOD MIDI in/out
     [o] PMOD Poteciometers
-    [ ] PMOD VGA
+    [o] PMOD VGA
     [ ] PMOD Rotary encoder
     [ ] PMOD DC Motor with encoder
     [ ] PMOD LCD - DS90CF363B    
@@ -95,6 +95,14 @@ Potenciometar rotate
 MIDI rotate
 
 ![PMOD_MIDI](pic/MIDI_Rotate.png)
+
+VGA front
+
+![PMOD_POT](pic/VGA_Front.png)
+
+VGA back
+
+![PMOD_POT](pic/VGA_back.png)
 
 OV7670 front
 

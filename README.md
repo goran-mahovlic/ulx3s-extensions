@@ -98,11 +98,11 @@ MIDI rotate
 
 VGA front
 
-![PMOD_POT](pic/VGA_Front.png)
+![PMOD_VGA](pic/VGA_Front.png)
 
 VGA back
 
-![PMOD_POT](pic/VGA_back.png)
+![PMOD_VGA](pic/VGA_Back.png)
 
 OV7670 front
 

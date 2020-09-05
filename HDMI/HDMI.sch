@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:HDMI-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -268,12 +267,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0105
 U 1 1 5C007648
-P 7550 3950
-F 0 "#PWR0105" H 7550 3800 50  0001 C CNN
-F 1 "+5V" H 7550 4090 50  0000 C CNN
-F 2 "" H 7550 3950 50  0000 C CNN
-F 3 "" H 7550 3950 50  0000 C CNN
-	1    7550 3950
+P 7550 4400
+F 0 "#PWR0105" H 7550 4250 50  0001 C CNN
+F 1 "+5V" H 7550 4540 50  0000 C CNN
+F 2 "" H 7550 4400 50  0000 C CNN
+F 3 "" H 7550 4400 50  0000 C CNN
+	1    7550 4400
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1833,17 +1832,6 @@ F 3 "" H 3200 5250 50  0000 C CNN
 $EndComp
 Text GLabel 2650 5750 0    60   Input ~ 0
 GPDI_ETH-
-$Comp
-L Device:C C10
-U 1 1 5DF28E7E
-P 3200 5750
-F 0 "C10" V 3250 5800 50  0000 L CNN
-F 1 "220nF" V 3250 5450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3238 5600 50  0001 C CNN
-F 3 "" H 3200 5750 50  0000 C CNN
-	1    3200 5750
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	2500 5150 2650 5150
 Wire Wire Line
@@ -2091,10 +2079,6 @@ Wire Wire Line
 	2500 5350 3750 5350
 Wire Wire Line
 	2500 5450 3750 5450
-Wire Wire Line
-	2650 5750 3050 5750
-Wire Wire Line
-	3350 5750 3750 5750
 $Comp
 L Device:LED D2
 U 1 1 5DF0D47E
@@ -2469,12 +2453,6 @@ Text Notes 1950 3500 0    50   ~ 0
 HDMI connector
 Wire Notes Line
 	5200 3550 7850 3550
-Wire Notes Line
-	7850 3550 7850 5350
-Wire Notes Line
-	5200 3550 5200 5350
-Wire Notes Line
-	5200 5350 7850 5350
 Text Notes 5200 3500 0    50   ~ 0
 HDMI needs 5V
 Wire Notes Line
@@ -2545,10 +2523,6 @@ Wire Wire Line
 	7250 4050 7250 4500
 Wire Wire Line
 	7250 4500 7100 4500
-Wire Wire Line
-	7250 4500 7250 4850
-Wire Wire Line
-	7250 4850 7100 4850
 Connection ~ 7250 4500
 $Comp
 L power:GND #PWR0108
@@ -2567,24 +2541,8 @@ Wire Wire Line
 	6000 4850 6100 4850
 Wire Wire Line
 	7250 4500 7550 4500
-Connection ~ 7550 4500
 Wire Wire Line
 	7550 4500 7550 4600
-$Comp
-L Jumper:SolderJumper_2_Bridged JP6
-U 1 1 5E907DB9
-P 7550 4150
-F 0 "JP6" H 7500 4050 50  0000 L CNN
-F 1 "JUMP" H 7450 4250 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7550 4150 50  0001 C CNN
-F 3 "~" H 7550 4150 50  0001 C CNN
-	1    7550 4150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7550 4300 7550 4500
-Wire Wire Line
-	7550 4000 7550 3950
 Text GLabel 850  4550 1    60   Input ~ 0
 GPDI_D2+
 Text GLabel 850  4950 3    60   Input ~ 0
@@ -2662,17 +2620,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 4900 1550 4950
 $Comp
-L Jumper:SolderJumper_2_Bridged JP2
-U 1 1 5E95DDB9
-P 4150 2100
-F 0 "JP2" H 4100 2000 50  0000 L CNN
-F 1 "JUMP" H 4050 2200 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4150 2100 50  0001 C CNN
-F 3 "~" H 4150 2100 50  0001 C CNN
-	1    4150 2100
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0115
 U 1 1 5E328D91
 P 5350 2400
@@ -2716,39 +2663,6 @@ F 3 "~" H 5350 1700 50  0001 C CNN
 	1    5350 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP3
-U 1 1 5E990D32
-P 4600 2100
-F 0 "JP3" H 4550 2000 50  0000 L CNN
-F 1 "JUMP" H 4500 2200 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4600 2100 50  0001 C CNN
-F 3 "~" H 4600 2100 50  0001 C CNN
-	1    4600 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP4
-U 1 1 5E990DC8
-P 5100 2100
-F 0 "JP4" H 5050 2000 50  0000 L CNN
-F 1 "JUMP" H 5000 2200 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5100 2100 50  0001 C CNN
-F 3 "~" H 5100 2100 50  0001 C CNN
-	1    5100 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP5
-U 1 1 5E990E5E
-P 5550 2050
-F 0 "JP5" H 5500 1950 50  0000 L CNN
-F 1 "JUMP" H 5450 2150 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5550 2050 50  0001 C CNN
-F 3 "~" H 5550 2050 50  0001 C CNN
-	1    5550 2050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5350 1850 5350 1900
 Wire Wire Line
@@ -2771,29 +2685,15 @@ Wire Wire Line
 Wire Wire Line
 	5350 1550 5350 1500
 Wire Wire Line
-	5550 2200 5550 2250
-Wire Wire Line
-	5100 2300 5100 2250
-Wire Wire Line
-	5100 1950 5100 1900
-Wire Wire Line
 	5100 1900 4900 1900
 Connection ~ 4900 1900
 Wire Wire Line
 	4900 1900 4900 2000
 Wire Wire Line
-	4600 2300 4600 2250
-Wire Wire Line
-	4600 1950 4600 1900
-Wire Wire Line
 	4600 1900 4400 1900
 Connection ~ 4400 1900
 Wire Wire Line
 	4400 1900 4400 2000
-Wire Wire Line
-	4150 2300 4150 2250
-Wire Wire Line
-	4150 1950 4150 1900
 Wire Wire Line
 	4150 1900 3950 1900
 Connection ~ 3950 1900
@@ -2819,27 +2719,12 @@ Wire Notes Line
 	550  6000 1850 6000
 Wire Notes Line
 	550  3550 1850 3550
-$Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 5E89BF30
-P 2700 1700
-F 0 "JP1" H 2650 1600 50  0000 L CNN
-F 1 "JUMP" H 2600 1800 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2700 1700 50  0001 C CNN
-F 3 "~" H 2700 1700 50  0001 C CNN
-	1    2700 1700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2700 1500 2700 1550
 Wire Wire Line
 	2100 2000 2100 1950
 Wire Wire Line
 	2100 1950 2300 1950
 Wire Wire Line
 	3500 1950 3500 2000
-Wire Wire Line
-	2700 1850 2700 1950
 Connection ~ 2700 1950
 Wire Wire Line
 	2700 1950 2900 1950
@@ -2872,4 +2757,107 @@ Wire Wire Line
 	3300 1950 3500 1950
 Wire Wire Line
 	5350 2300 5350 2400
+$Comp
+L antena:D_Zener_Small D?
+U 1 1 5F5539A7
+P 10300 4300
+F 0 "D?" V 10254 4368 50  0000 L CNN
+F 1 "D_Zener_Small" V 10345 4368 50  0000 L CNN
+F 2 "" V 10300 4300 50  0001 C CNN
+F 3 "~" V 10300 4300 50  0001 C CNN
+	1    10300 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F554118
+P 10300 4500
+F 0 "#PWR?" H 10300 4250 50  0001 C CNN
+F 1 "GND" H 10300 4350 50  0000 C CNN
+F 2 "" H 10300 4500 60  0000 C CNN
+F 3 "" H 10300 4500 60  0000 C CNN
+	1    10300 4500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10300 4100 1    50   Input ~ 0
+GPDI_ETH-
+Wire Wire Line
+	10300 4100 10300 4200
+Wire Wire Line
+	10300 4400 10300 4500
+Text Notes 10100 3500 0    50   ~ 0
+3.6V zener\nLowering 5V from \nmonitor to 3.6V
+$Comp
+L Device:R R?
+U 1 1 5F56EF36
+P 3000 5750
+F 0 "R?" V 2900 5750 50  0000 C CNN
+F 1 "510" V 3000 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2930 5750 50  0001 C CNN
+F 3 "~" H 3000 5750 50  0001 C CNN
+	1    3000 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 5750 3750 5750
+Wire Wire Line
+	2650 5750 2850 5750
+Wire Wire Line
+	2700 1500 2700 1950
+Wire Wire Line
+	4150 1900 4150 2300
+Wire Wire Line
+	4600 1900 4600 2300
+Wire Wire Line
+	5100 1900 5100 2300
+Wire Wire Line
+	5550 1900 5550 2250
+Text GLabel 6850 5100 0    50   Input ~ 0
+LED_HDMI
+$Comp
+L Device:R R?
+U 1 1 5F5CB3AF
+P 7300 5250
+F 0 "R?" H 7370 5296 50  0000 L CNN
+F 1 "4.7k" V 7300 5150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7230 5250 50  0001 C CNN
+F 3 "~" H 7300 5250 50  0001 C CNN
+	1    7300 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4850 7300 4850
+Wire Wire Line
+	7300 4850 7300 4950
+Wire Wire Line
+	6850 5100 7150 5100
+Wire Wire Line
+	7150 5100 7150 4950
+Wire Wire Line
+	7150 4950 7300 4950
+Connection ~ 7300 4950
+Wire Wire Line
+	7300 4950 7300 5100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F63928E
+P 7300 5500
+F 0 "#PWR?" H 7300 5350 50  0001 C CNN
+F 1 "+3V3" V 7315 5628 50  0000 L CNN
+F 2 "" H 7300 5500 50  0001 C CNN
+F 3 "" H 7300 5500 50  0001 C CNN
+	1    7300 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 5500 7300 5400
+Wire Notes Line
+	5200 5900 7850 5900
+Wire Notes Line
+	7850 3550 7850 5900
+Wire Notes Line
+	5200 3550 5200 5900
+Wire Wire Line
+	7550 4400 7550 4500
+Connection ~ 7550 4500
 $EndSCHEMATC

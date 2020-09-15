@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 22)
-    (tracks 264)
+    (tracks 265)
     (zones 0)
     (modules 16)
     (nets 18)
@@ -2363,6 +2363,7 @@
   (segment (start 59.895001 95.185001) (end 60.87 96.16) (width 0.25) (layer B.Cu) (net 1))
   (via (at 114.16 95.5) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (segment (start 95.76 93.294998) (end 91.309998 93.294998) (width 0.25) (layer B.Cu) (net 1) (tstamp 5E8E48B5))
+  (via (at 51.95 93.78) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (segment (start 98.77 89.26) (end 99.02 89.26) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 96.9475 87.4375) (end 98.77 89.26) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 96.9475 86.06) (end 96.9475 87.4375) (width 0.25) (layer B.Cu) (net 2))
@@ -2752,6 +2753,12 @@
         (xy 113.972828 96.129076) (xy 113.908481 96.172071) (xy 113.866081 96.235527) (xy 112.5916 97.510009) (xy 112.109638 97.510009)
         (xy 112.121992 97.504892) (xy 112.574892 97.051992) (xy 112.82 96.460249) (xy 112.82 95.819751) (xy 112.574892 95.228008)
         (xy 112.286884 94.94) (xy 115.121822 94.94)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 52.056196 94.475001) (xy 50.471543 94.475001) (xy 50.554092 94.06) (xy 50.481209 93.693592) (xy 50.695955 93.478847)
+        (xy 53.052349 93.478847)
       )
     )
   )

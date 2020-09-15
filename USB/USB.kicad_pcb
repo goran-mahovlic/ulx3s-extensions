@@ -2628,7 +2628,7 @@
       (net 30 "Net-(D15-Pad1)"))
     (pad 2 thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 31 "Net-(D15-Pad2)"))
-    (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm_IRBlack.wrl
+    (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm_IRBlack.wrl1
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2666,7 +2666,7 @@
       (net 30 "Net-(D15-Pad1)"))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 32 "Net-(D16-Pad1)"))
-    (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm_IRBlack.wrl
+    (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm_IRBlack.wrl1
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2704,7 +2704,7 @@
       (net 33 "Net-(D17-Pad1)"))
     (pad 2 thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 32 "Net-(D16-Pad1)"))
-    (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm_IRBlack.wrl
+    (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm_IRBlack.wrl1
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2750,7 +2750,7 @@
       (net 21 GP27))
     (pad 5 thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 8 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl1
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2830,7 +2830,7 @@
       (net 25 +3V3))
     (pad 3 thru_hole circle (at 7.62 0 180) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
       (net 23 GP26))
-    (model ${KISYS3DMOD}/OptoDevice.3dshapes/Vishay_CAST-3Pin.wrl
+    (model ${KISYS3DMOD}/OptoDevice.3dshapes/Vishay_CAST-3Pin.wrl1
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

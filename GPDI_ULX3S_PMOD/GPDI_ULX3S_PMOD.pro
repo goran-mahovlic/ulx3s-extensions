@@ -1,4 +1,4 @@
-update=nedjelja, 06. rujna 2020. 15:12:53 CEST
+update=utorak, 15. rujna 2020. 20:05:32 CEST
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=HDMI.net
+LastNetListRead=GPDI_ULX3S_PMOD.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -78,7 +78,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

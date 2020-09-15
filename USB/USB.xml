@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/media/internal/FPGA/ulx3s-PMOD/USB/USB.sch</source>
+    <date>četvrtak, 19. ožujka 2020. 10:42:53 CET</date>
+    <tool>Eeschema 5.0.2+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D6">
+      <value>0</value>
+      <footprint>jumper:D_SMA_Jumper_NC</footprint>
+      <fields>
+        <field name="EMPTY_MPN">RC0805JR-070RL</field>
+        <field name="MFG1">Yageo</field>
+        <field name="MFG2">ST</field>
+        <field name="MNF1_URL">www.yageo.com</field>
+        <field name="MPN2">STPS2L30AF</field>
+        <field name="Note">Leave empty</field>
+      </fields>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6C83C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591C69FB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MNF1_URL">www.yageo.com</field>
+        <field name="MPN">AC0603JR-0727RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C0F7B0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MNF1_URL">www.yageo.com</field>
+        <field name="MPN">AC0603JR-0727RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C0F7B6</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>3.6V</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf</datasheet>
+      <fields>
+        <field name="Digikey">BZT52C3V6S-TPMSCT-ND</field>
+        <field name="Koncar">FV002</field>
+        <field name="MNF1_URL">www.taiwansemi.com</field>
+        <field name="MPN">BZT52C3V6S</field>
+        <field name="Mouser">833-BZT52C3V6S-TP</field>
+        <field name="price200_Mouser">0.096$</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener_Small_ALT" description="Zener diode, small symbol, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C133D8</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>3.6V</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf</datasheet>
+      <fields>
+        <field name="MNF1_URL">www.taiwansemi.com</field>
+        <field name="MPN">BZT52C3V6S</field>
+        <field name="Mouser">833-BZT52C3V6S-TP</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener_Small_ALT" description="Zener diode, small symbol, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C134C9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D562D0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A71E38F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A71E566</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N914</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30065.pdf</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A720D44</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N914</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30065.pdf</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF760EE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N914</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30065.pdf</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF79ABE</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N914</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30065.pdf</datasheet>
+      <fields>
+        <field name="MPN">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF7B2B2</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>0</value>
+      <footprint>jumper:D_SMA_Jumper_NC</footprint>
+      <fields>
+        <field name="EMPTY_MPN">RC0805JR-070RL</field>
+        <field name="MFG1">Yageo</field>
+        <field name="MFG2">ST</field>
+        <field name="MNF1_URL">www.yageo.com</field>
+        <field name="MPN2">STPS2L30AF</field>
+        <field name="Note">Leave empty</field>
+      </fields>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B6D9</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B712</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MNF1_URL">www.yageo.com</field>
+        <field name="MPN">AC0603JR-0727RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B71F</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MNF1_URL">www.yageo.com</field>
+        <field name="MPN">AC0603JR-0727RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B72B</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>3.6V</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf</datasheet>
+      <fields>
+        <field name="Digikey">BZT52C3V6S-TPMSCT-ND</field>
+        <field name="Koncar">FV002</field>
+        <field name="MNF1_URL">www.taiwansemi.com</field>
+        <field name="MPN">BZT52C3V6S</field>
+        <field name="Mouser">833-BZT52C3V6S-TP</field>
+        <field name="price200_Mouser">0.096$</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener_Small_ALT" description="Zener diode, small symbol, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B73F</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>3.6V</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf</datasheet>
+      <fields>
+        <field name="MNF1_URL">www.taiwansemi.com</field>
+        <field name="MPN">BZT52C3V6S</field>
+        <field name="Mouser">833-BZT52C3V6S-TP</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener_Small_ALT" description="Zener diode, small symbol, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B74C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B768</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B775</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B77F</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N914</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30065.pdf</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B78C</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N914</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30065.pdf</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B7B0</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N914</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30065.pdf</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B7BA</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N914</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30065.pdf</datasheet>
+      <fields>
+        <field name="MPN">1N4148WS</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4B7C5</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x12_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x12_Odd_Even" description="Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF73C50</tstamp>
+    </comp>
+    <comp ref="US4">
+      <value>USB_A</value>
+      <footprint>Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF9BA2D</tstamp>
+    </comp>
+    <comp ref="US3">
+      <value>USB_A</value>
+      <footprint>Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF9C01F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TSOP17xx</value>
+      <footprint>OptoDevice:Vishay_CAST-3Pin</footprint>
+      <datasheet>http://www.micropik.com/PDF/tsop17xx.pdf</datasheet>
+      <libsource lib="Interface_Optical" part="TSOP17xx" description="Photo Modules for PCM Remote Control Systems"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E048AE5</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_IRBlack</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E05440B</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_IRBlack</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E05565F</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_IRBlack</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E05591A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4.7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MNF1_URL">www.yageo.com</field>
+        <field name="MPN">AC0603JR-0727RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E055BA4</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0572AC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E07EEC9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_A">
+      <description>USB Type A connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x12_Odd_Even">
+      <description>Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x12_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener_Small_ALT">
+      <description>Zener diode, small symbol, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_Small_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NC_Small">
+      <description>Jumper, normally closed, small symbol</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Optical" part="TSOP17xx">
+      <aliases>
+        <alias>TSOP312xx</alias>
+        <alias>TSOP314xx</alias>
+      </aliases>
+      <description>Photo Modules for PCM Remote Control Systems</description>
+      <docs>http://www.micropik.com/PDF/tsop17xx.pdf</docs>
+      <footprints>
+        <fp>Vishay*CAST*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSOP17xx</field>
+        <field name="Footprint">OptoDevice:Vishay_CAST-3Pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="Vs" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>MMBF170</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Interface_Optical">
+      <uri>/usr/share/kicad/library/Interface_Optical.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GN26">
+      <node ref="Q1" pin="1"/>
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="2" name="GP27">
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="20"/>
+    </net>
+    <net code="3" name="USB2_FPGA_D-">
+      <node ref="D14" pin="1"/>
+      <node ref="J1" pin="13"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="Q1" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J2" pin="5"/>
+      <node ref="US3" pin="5"/>
+      <node ref="D12" pin="2"/>
+      <node ref="US3" pin="4"/>
+      <node ref="US4" pin="5"/>
+      <node ref="US4" pin="4"/>
+      <node ref="J1" pin="21"/>
+      <node ref="J1" pin="22"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="5" name="USB1_FPGA_D-">
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="6" name="USB1_FPGA_PULL_D-">
+      <node ref="J1" pin="9"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="7" name="USB2_FPGA_PULL_D-">
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="8" name="GP26">
+      <node ref="U1" pin="3"/>
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="9" name="GN27">
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="10" name="+3V3">
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="11" name="USB2_FPGA_PULL_D+">
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="12" name="USB1_FPGA_PULL_D+">
+      <node ref="J1" pin="10"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="13" name="USB2_FPGA_D+">
+      <node ref="R12" pin="1"/>
+      <node ref="J1" pin="14"/>
+      <node ref="R7" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="14" name="USB1_FPGA_D+">
+      <node ref="J1" pin="16"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="15" name="+5V">
+      <node ref="J2" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="D13" pin="2"/>
+      <node ref="J1" pin="24"/>
+      <node ref="J1" pin="23"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D17-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D15-Pad1)">
+      <node ref="D16" pin="2"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="20" name="/US2VBUS">
+      <node ref="D13" pin="1"/>
+      <node ref="US4" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="23" name="/US1VBUS">
+      <node ref="US3" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="26" name="/FPD1-">
+      <node ref="US3" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="27" name="/FPD1+">
+      <node ref="US3" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="28" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D11-Pad2)">
+      <node ref="R10" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D10-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D8-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="32" name="/FPD2-">
+      <node ref="R11" pin="2"/>
+      <node ref="US4" pin="2"/>
+    </net>
+    <net code="33" name="/FPD2+">
+      <node ref="R12" pin="2"/>
+      <node ref="US4" pin="3"/>
+    </net>
+  </nets>
+</export>

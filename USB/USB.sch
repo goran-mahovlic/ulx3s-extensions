@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:USB-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "ULX3S USB PMOD"
+Date "2020-10-08"
+Rev "V1.0"
+Comp "Radiona.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -168,7 +167,7 @@ Connection ~ 3550 2550
 Connection ~ 3500 2200
 Connection ~ 3600 2100
 Text Notes 1550 3450 0    60   ~ 0
-D8,D9: Schottky 2A/30V \nLow drop Vfmax=0.375V\nParts reduction: Only D8 is required.\nD9 D51 D52 can be 1206\n1A polyfuses or 0-ohm/2A jumpers
+D5,D7: Schottky 2A/30V \nLow drop Vfmax=0.375V\nParts reduction: Only D5 is required.\nD6, D13 can be 1206\n1A polyfuses or 0-ohm/2A jumpers
 $Comp
 L Device:R R3
 U 1 1 59D562D0
@@ -316,7 +315,7 @@ $EndComp
 Text Label 2750 2000 0    60   ~ 0
 US1VBUS
 Text Notes 1650 5400 0    60   ~ 0
-Deviation from USB specification in\npulldowns for BOM simplificaton.\nWith series diode, correct value R63 R64 \nshould be 12k but 15k is used.
+Deviation from USB specification in\npulldowns for BOM simplificaton.\nWith series diode, correct value R2 R4 \nshould be 12k but 15k is used.
 Wire Notes Line
 	3450 1750 3550 1750
 Wire Notes Line

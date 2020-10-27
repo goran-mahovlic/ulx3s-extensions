@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "GPDI PMOD for ULX3S"
+Title "GPDI extension for ULX3S"
 Date "2020-09-08"
 Rev "1.4"
 Comp "Intergalaktik d.o.o."
@@ -1702,7 +1702,7 @@ L Connector_Generic:Conn_02x09_Odd_Even J2
 U 1 1 5DEFC7F1
 P 8850 4350
 F 0 "J2" H 8900 4967 50  0000 C CNN
-F 1 "PMOD" H 8900 4876 50  0000 C CNN
+F 1 "CONN" H 8900 4876 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Horizontal" H 8850 4350 50  0001 C CNN
 F 3 "~" H 8850 4350 50  0001 C CNN
 	1    8850 4350
@@ -2170,7 +2170,7 @@ CEC
 Text Label 3400 5050 0    50   ~ 0
 CLK-
 $Comp
-L antena:R R11
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R11
 U 1 1 5E2CBDF3
 P 4500 1800
 F 0 "R11" V 4400 1700 50  0000 L CNN
@@ -2181,7 +2181,7 @@ F 3 "~" H 4500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R12
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R12
 U 1 1 5E2CC017
 P 4700 1800
 F 0 "R12" V 4600 1700 50  0000 L CNN
@@ -2192,7 +2192,7 @@ F 3 "~" H 4700 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R15
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R15
 U 1 1 5E2CC065
 P 4900 1800
 F 0 "R15" V 4800 1700 50  0000 L CNN
@@ -2203,7 +2203,7 @@ F 3 "~" H 4900 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R16
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R16
 U 1 1 5E2CC0C5
 P 5100 1800
 F 0 "R16" V 5000 1700 50  0000 L CNN
@@ -2214,7 +2214,7 @@ F 3 "~" H 5100 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R19
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R19
 U 1 1 5E2CC11B
 P 5300 1800
 F 0 "R19" V 5200 1700 50  0000 L CNN
@@ -2225,7 +2225,7 @@ F 3 "~" H 5300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R20
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R20
 U 1 1 5E2CC16F
 P 5500 1800
 F 0 "R20" V 5400 1700 50  0000 L CNN
@@ -2236,7 +2236,7 @@ F 3 "~" H 5500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R8
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R8
 U 1 1 5E2CC1C5
 P 4300 1800
 F 0 "R8" V 4200 1700 50  0000 L CNN
@@ -2247,7 +2247,7 @@ F 3 "~" H 4300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R23
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R23
 U 1 1 5E2CC21D
 P 5700 1800
 F 0 "R23" V 5600 1700 50  0000 L CNN
@@ -2301,7 +2301,7 @@ F 3 "" H 4900 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R17
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R17
 U 1 1 5E34419C
 P 7100 1350
 F 0 "R17" V 7000 1250 50  0000 L CNN
@@ -2312,7 +2312,7 @@ F 3 "~" H 7100 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R18
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R18
 U 1 1 5E3441A2
 P 7100 1800
 F 0 "R18" V 7000 1700 50  0000 L CNN
@@ -2349,7 +2349,7 @@ Wire Wire Line
 Text GLabel 7300 1950 3    50   Input ~ 0
 GPDI_D2+
 $Comp
-L antena:R R13
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R13
 U 1 1 5E34947B
 P 6600 1350
 F 0 "R13" V 6500 1250 50  0000 L CNN
@@ -2360,7 +2360,7 @@ F 3 "~" H 6600 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R14
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R14
 U 1 1 5E349481
 P 6600 1800
 F 0 "R14" V 6500 1700 50  0000 L CNN
@@ -2397,7 +2397,7 @@ Wire Wire Line
 Text GLabel 6800 1950 3    50   Input ~ 0
 GPDI_D1+
 $Comp
-L antena:R R9
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R9
 U 1 1 5E34949B
 P 6150 1350
 F 0 "R9" V 6050 1250 50  0000 L CNN
@@ -2408,7 +2408,7 @@ F 3 "~" H 6150 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R10
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R10
 U 1 1 5E3494A1
 P 6150 1800
 F 0 "R10" V 6050 1700 50  0000 L CNN
@@ -2459,7 +2459,7 @@ GPDI connector
 Wire Notes Line
 	5200 3550 7850 3550
 Text Notes 5200 3500 0    50   ~ 0
-HDMI needs 5V
+5V DC/DC
 Wire Notes Line
 	8000 3550 9800 3550
 Wire Notes Line
@@ -2483,7 +2483,7 @@ I2C level shifter
 Wire Notes Line
 	8000 3550 8000 4900
 Text Notes 8000 3500 0    50   ~ 0
-PMOD
+GPDI_Extension
 Wire Notes Line
 	7900 650  7900 3000
 Wire Notes Line
@@ -2548,82 +2548,6 @@ Wire Wire Line
 	7250 4500 7550 4500
 Wire Wire Line
 	7550 4500 7550 4600
-Text GLabel 850  4550 1    60   Input ~ 0
-GPDI_D2+
-Text GLabel 850  4950 3    60   Input ~ 0
-GPDI_D2-
-Text GLabel 1100 4550 1    60   Input ~ 0
-GPDI_D1+
-Text GLabel 1100 4950 3    60   Input ~ 0
-GPDI_D1-
-Text GLabel 1350 4550 1    60   Input ~ 0
-GPDI_D0+
-Text GLabel 1350 4950 3    60   Input ~ 0
-GPDI_D0-
-Text GLabel 1550 4950 3    60   Input ~ 0
-GPDI_CLK-
-Text GLabel 1550 4550 1    60   Input ~ 0
-GPDI_CLK+
-$Comp
-L antena:R R24
-U 1 1 5E9188DF
-P 850 4750
-F 0 "R24" H 700 4750 50  0000 L CNN
-F 1 "200R" V 850 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 780 4750 50  0001 C CNN
-F 3 "~" H 850 4750 50  0001 C CNN
-	1    850  4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L antena:R R25
-U 1 1 5E918E84
-P 1100 4750
-F 0 "R25" H 950 4750 50  0000 L CNN
-F 1 "200R" V 1100 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1030 4750 50  0001 C CNN
-F 3 "~" H 1100 4750 50  0001 C CNN
-	1    1100 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L antena:R R26
-U 1 1 5E918F06
-P 1350 4750
-F 0 "R26" H 1200 4750 50  0000 L CNN
-F 1 "200R" V 1350 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1280 4750 50  0001 C CNN
-F 3 "~" H 1350 4750 50  0001 C CNN
-	1    1350 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L antena:R R27
-U 1 1 5E918F8A
-P 1550 4750
-F 0 "R27" H 1400 4750 50  0000 L CNN
-F 1 "200R" V 1550 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1480 4750 50  0001 C CNN
-F 3 "~" H 1550 4750 50  0001 C CNN
-	1    1550 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	850  4550 850  4600
-Wire Wire Line
-	1100 4550 1100 4600
-Wire Wire Line
-	1350 4550 1350 4600
-Wire Wire Line
-	1550 4550 1550 4600
-Wire Wire Line
-	850  4900 850  4950
-Wire Wire Line
-	1100 4900 1100 4950
-Wire Wire Line
-	1350 4900 1350 4950
-Wire Wire Line
-	1550 4900 1550 4950
 $Comp
 L power:GND #PWR0115
 U 1 1 5E328D91
@@ -2647,7 +2571,7 @@ F 3 "" H 7550 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R22
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R22
 U 1 1 5E316F15
 P 7550 1800
 F 0 "R22" V 7450 1700 50  0000 L CNN
@@ -2658,7 +2582,7 @@ F 3 "~" H 7550 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R21
+L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R21
 U 1 1 5E316EA7
 P 7550 1350
 F 0 "R21" V 7450 1250 50  0000 L CNN
@@ -2763,7 +2687,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 1950 7550 2050
 $Comp
-L antena:D_Zener_Small D3
+L GPDI_ULX3S_PMOD-rescue:D_Zener_Small-antena-GPDI_ULX3S_PMOD-rescue D3
 U 1 1 5F5539A7
 P 10300 4300
 F 0 "D3" V 10254 4368 50  0000 L CNN

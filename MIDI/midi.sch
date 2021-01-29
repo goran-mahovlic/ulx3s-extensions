@@ -1738,7 +1738,7 @@ U 1 1 5E8CCB9E
 P 3250 1900
 F 0 "U1" H 3691 1946 50  0000 L CNN
 F 1 "TLP2361" H 3350 1550 50  0000 L CNN
-F 2 "Package_SO:SO-6L_10x3.84mm_P1.27mm" H 2550 1400 50  0001 L CIN
+F 2 "Package_SO:SO-6_4.4x3.6mm_P1.27mm" H 2550 1400 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=29405&prodName=TLP2745" H 3142 1915 50  0001 L CNN
 	1    3250 1900
 	1    0    0    -1  

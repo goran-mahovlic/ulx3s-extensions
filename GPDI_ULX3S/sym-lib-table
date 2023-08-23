@@ -1,6 +1,8 @@
 (sym_lib_table
-  (lib (name HDMI-rescue)(type Legacy)(uri ${KIPRJMOD}/HDMI-rescue.lib)(options "")(descr ""))
-  (lib (name hdmi-d)(type Legacy)(uri ${KIPRJMOD}/hdmi-d/hdmi-d.lib)(options "")(descr ""))
-  (lib (name RN5RK)(type Legacy)(uri ${KIPRJMOD}/../parts/RN5RK/RN5RK.lib)(options "")(descr ""))
-  (lib (name GPDI_ULX3S_PMOD-rescue)(type Legacy)(uri ${KIPRJMOD}/GPDI_ULX3S_PMOD-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "HDMI-rescue")(type "Legacy")(uri "${KIPRJMOD}/HDMI-rescue.lib")(options "")(descr ""))
+  (lib (name "hdmi-d")(type "Legacy")(uri "${KIPRJMOD}/hdmi-d/hdmi-d.lib")(options "")(descr ""))
+  (lib (name "RN5RK")(type "Legacy")(uri "${KIPRJMOD}/../parts/RN5RK/RN5RK.lib")(options "")(descr ""))
+  (lib (name "GPDI_ULX3S_PMOD-rescue")(type "Legacy")(uri "${KIPRJMOD}/GPDI_ULX3S_PMOD-rescue.lib")(options "")(descr ""))
+  (lib (name "GPDI_ULX3S-rescue")(type "KiCad")(uri "${KIPRJMOD}/GPDI_ULX3S-rescue.kicad_sym")(options "")(descr ""))
 )

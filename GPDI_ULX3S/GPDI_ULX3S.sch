@@ -2170,7 +2170,7 @@ CEC
 Text Label 3400 5050 0    50   ~ 0
 CLK-
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R11
+L Device:R R11
 U 1 1 5E2CBDF3
 P 4500 1800
 F 0 "R11" V 4400 1700 50  0000 L CNN
@@ -2181,7 +2181,7 @@ F 3 "~" H 4500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R12
+L Device:R R12
 U 1 1 5E2CC017
 P 4700 1800
 F 0 "R12" V 4600 1700 50  0000 L CNN
@@ -2192,7 +2192,7 @@ F 3 "~" H 4700 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R15
+L Device:R R15
 U 1 1 5E2CC065
 P 4900 1800
 F 0 "R15" V 4800 1700 50  0000 L CNN
@@ -2203,7 +2203,7 @@ F 3 "~" H 4900 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R16
+L Device:R R16
 U 1 1 5E2CC0C5
 P 5100 1800
 F 0 "R16" V 5000 1700 50  0000 L CNN
@@ -2214,7 +2214,7 @@ F 3 "~" H 5100 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R19
+L Device:R R19
 U 1 1 5E2CC11B
 P 5300 1800
 F 0 "R19" V 5200 1700 50  0000 L CNN
@@ -2225,7 +2225,7 @@ F 3 "~" H 5300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R20
+L Device:R R20
 U 1 1 5E2CC16F
 P 5500 1800
 F 0 "R20" V 5400 1700 50  0000 L CNN
@@ -2236,7 +2236,7 @@ F 3 "~" H 5500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R8
+L Device:R R8
 U 1 1 5E2CC1C5
 P 4300 1800
 F 0 "R8" V 4200 1700 50  0000 L CNN
@@ -2247,7 +2247,7 @@ F 3 "~" H 4300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R23
+L Device:R R23
 U 1 1 5E2CC21D
 P 5700 1800
 F 0 "R23" V 5600 1700 50  0000 L CNN
@@ -2301,7 +2301,7 @@ F 3 "" H 4900 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R17
+L Device:R R17
 U 1 1 5E34419C
 P 7100 1350
 F 0 "R17" V 7000 1250 50  0000 L CNN
@@ -2312,7 +2312,7 @@ F 3 "~" H 7100 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R18
+L Device:R R18
 U 1 1 5E3441A2
 P 7100 1800
 F 0 "R18" V 7000 1700 50  0000 L CNN
@@ -2349,7 +2349,7 @@ Wire Wire Line
 Text GLabel 7300 1950 3    50   Input ~ 0
 GPDI_D2+
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R13
+L Device:R R13
 U 1 1 5E34947B
 P 6600 1350
 F 0 "R13" V 6500 1250 50  0000 L CNN
@@ -2360,7 +2360,7 @@ F 3 "~" H 6600 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R14
+L Device:R R14
 U 1 1 5E349481
 P 6600 1800
 F 0 "R14" V 6500 1700 50  0000 L CNN
@@ -2397,7 +2397,7 @@ Wire Wire Line
 Text GLabel 6800 1950 3    50   Input ~ 0
 GPDI_D1+
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R9
+L Device:R R9
 U 1 1 5E34949B
 P 6150 1350
 F 0 "R9" V 6050 1250 50  0000 L CNN
@@ -2408,7 +2408,7 @@ F 3 "~" H 6150 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R10
+L Device:R R10
 U 1 1 5E3494A1
 P 6150 1800
 F 0 "R10" V 6050 1700 50  0000 L CNN
@@ -2571,7 +2571,7 @@ F 3 "" H 7550 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R22
+L Device:R R22
 U 1 1 5E316F15
 P 7550 1800
 F 0 "R22" V 7450 1700 50  0000 L CNN
@@ -2582,7 +2582,7 @@ F 3 "~" H 7550 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GPDI_ULX3S_PMOD-rescue:R-antena-GPDI_ULX3S_PMOD-rescue R21
+L Device:R R21
 U 1 1 5E316EA7
 P 7550 1350
 F 0 "R21" V 7450 1250 50  0000 L CNN
@@ -2687,7 +2687,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 1950 7550 2050
 $Comp
-L GPDI_ULX3S_PMOD-rescue:D_Zener_Small-antena-GPDI_ULX3S_PMOD-rescue D3
+L Device:D_Zener_Small D3
 U 1 1 5F5539A7
 P 10300 4300
 F 0 "D3" V 10254 4368 50  0000 L CNN

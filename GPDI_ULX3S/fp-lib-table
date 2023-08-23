@@ -1,6 +1,9 @@
 (fp_lib_table
-  (lib (name HDMI)(type KiCad)(uri ${KIPRJMOD}/hdmi-d/hdmi-d.pretty)(options "")(descr ""))
-  (lib (name parts2)(type KiCad)(uri ${KIPRJMOD}/../parts)(options "")(descr ""))
-  (lib (name RN5RK)(type KiCad)(uri ${KIPRJMOD}/GPDI_ULX3S_PMOD/ulx3s-PMOD/parts/RN5RK)(options "")(descr ""))
-  (lib (name GPDI)(type KiCad)(uri ${KIPRJMOD}/GPDI/conn-fci.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "HDMI")(type "KiCad")(uri "${KIPRJMOD}/hdmi-d/hdmi-d.pretty")(options "")(descr ""))
+  (lib (name "parts2")(type "KiCad")(uri "${KIPRJMOD}/../parts")(options "")(descr ""))
+  (lib (name "RN5RK")(type "KiCad")(uri "/home/goran/Projects/ulx3s-extensions/parts/RN5RK")(options "")(descr ""))
+  (lib (name "GPDI")(type "KiCad")(uri "${KIPRJMOD}/GPDI/conn-fci.pretty")(options "")(descr ""))
+  (lib (name "intergalaktik")(type "KiCad")(uri "/home/goran/Projects/ulx3s-extensions/parts/intergalaktik")(options "")(descr ""))
+  (lib (name "PCA9306")(type "KiCad")(uri "/home/goran/Projects/ulx3s-extensions/parts/PCA9306DCTR/KiCad")(options "")(descr ""))
 )

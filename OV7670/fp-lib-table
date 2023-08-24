@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name parts)(type KiCad)(uri /media/internal/FPGA/ulx3s-PMOD/parts)(options "")(descr ""))
+  (version 7)
+  (lib (name "parts")(type "KiCad")(uri "/home/goran/Projects/ulx3s-extensions/parts")(options "")(descr ""))
+  (lib (name "intergalaktik")(type "KiCad")(uri "/home/goran/Projects/ulx3s-extensions/parts/intergalaktik")(options "")(descr ""))
 )

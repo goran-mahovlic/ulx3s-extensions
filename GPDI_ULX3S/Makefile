@@ -1,0 +1,91 @@
+# makefile for panelization experiments
+# just demo example, not yet ready for production
+
+# pip3 uninstall kikit
+# pip3 install kikit
+# pip3 install --upgrade kikit
+# pip3 show kikit
+# Version: 0.7
+
+# unstable version (commandline options not compatible)
+# pip3 install git+https://github.com/yaqwsx/KiKit@master
+
+.PHONY: all clean
+
+BOARDS = GPDI_ULX3S
+DESTINATION = panel
+
+BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
+GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
+ZIP = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber.zip))
+KIKIT = ~/.local/bin/kikit
+
+# help panelizer locate board
+# this design has a single board
+# so area is oversized to include everything
+X_ORIGIN=110
+Y_ORIGIN=88
+X_SIZE=40
+Y_SIZE=23
+
+all: $(GERBERS) $(ZIP)
+
+#$(DESTINATION)/GPDI_ULX3S.kicad_pcb: GPDI_ULX3S.kicad_pcb $(DESTINATION)
+#	$(KIKIT) export gerber \
+#		$< $@
+
+# this is almost as what we need but
+# space should be cut more by radius to the left and right
+# currently cuts will leave "dents" at the edges.
+# workaround now is to have radius 0 instead of 2 mm
+$(DESTINATION)/GPDI_ULX3S.kicad_pcb: $(DESTINATION)/GPDI_ULX3S.kicad_pcb
+	$(KIKIT) panelize      \
+		--layout 'grid;  rows: 5; cols: 4; space: 2mm'\    \
+    	--tabs 'fixed; width: 10mm' \
+		--cuts vcuts \
+		--framing 'railstb; width: 3mm; space: 2mm;' \
+		--fiducials '3fid; hoffset: 5mm; voffset: 1.5mm; coppersize: 1mm; opening: 2mm;' \
+		--tooling '4hole; hoffset: 2.5mm; voffset: 1.5mm; size: 1.5mm' \
+		--text 'simple; text: Intergalaktik d.o.o. GPDI_ULX3S v1.6 panelized with KiKit; anchor: mt; voffset: 1.5mm; hjustify: center; vjustify: center;' \
+		--post 'millradius: 1mm' \
+		$< $@
+
+# adding this will enlarge horizontal cuts
+# but will also remove them from upper and
+# lower parts of the panel so boards can't
+# separate from the panel
+#		--htabs     1       \
+#		--tabheight 50      \
+
+# this makes too much cuts and tabs
+#		--space     8       \
+#		--gridsize  4 2     \
+#		--htabs     0       \
+#		--tabheight 44      \
+#		--vtabs     0       \
+#		--tabwidth  24      \
+#		--radius    2       \
+#		--vcuts             \
+#		--railsLr   5       \
+#		--railsTb   8       \
+#		--copperfill        \
+#		--tolerance 20      \
+#		--fiducials 5 5 1 2 \
+
+%-gerber: %.kicad_pcb
+	$(KIKIT) export gerber $< $@
+
+%-gerber.zip: %-gerber
+	zip $@ plot/panel/GPDI_ULX3S-panel-gerber/*.*
+
+$(DESTINATION):
+	mkdir -p $(DESTINATION)
+
+view: $(DESTINATION)/GPDI_ULX3S-panel.kicad_pcb
+	pcbnew $<
+
+clean:
+	rm -f *~
+	rm -rf $(DESTINATION)
+	mkdir plot/panel
+	cp GPDI_ULX3S.kicad_pcb plot/panel

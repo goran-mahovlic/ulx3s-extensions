@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name usb_otg)(type Legacy)(uri ${KIPRJMOD}/usb_otg/usb_otg.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "usb_otg")(type "Legacy")(uri "${KIPRJMOD}/usb_otg/usb_otg.lib")(options "")(descr ""))
+  (lib (name "USB-rescue")(type "KiCad")(uri "${KIPRJMOD}/USB-rescue.kicad_sym")(options "")(descr ""))
 )
